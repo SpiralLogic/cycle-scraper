@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const ProductWebsite_1 = require("../ProductWebsite");
-class ChainReaction extends ProductWebsite_1.ProductWebsite {
+const Site_1 = require("../Site");
+class ChainReaction extends Site_1.Site {
     constructor() {
         super("ChainReaction", ".pagination a.active + a");
         this.getProducts = async (page) => {
             const products = [];
             const productElements = await page.$$(".products_details");
             for await (const p of productElements) {
-                const url = await this.getElementAttributeValue(page, await p.$("a"), "href");
+                const url = await this.getAttributeValue(page, await p.$("a"), "href");
                 const rrPrice = { type: "rrp", amount: await this.getPropertyValue(p, ".rrpamount", "innerText") };
                 const salePrice = { type: "sale", amount: await this.getPropertyValue(p, ".fromamt", "innerText") };
                 const name = await this.getPropertyValue(p, ".description", "innerText");
@@ -24,7 +24,7 @@ class ChainReaction extends ProductWebsite_1.ProductWebsite {
             return products;
         };
     }
-    resetProductPages() {
+    initializeProductPages() {
         return [
             { url: "https://www.chainreactioncycles.com/au/en/bmx-bikes", name: "bmx-bikes" },
             { url: "https://www.chainreactioncycles.com/au/en/bike-trailers", name: "bike-trailers" },

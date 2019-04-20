@@ -26,11 +26,6 @@ export class Page {
         return await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName);
     };
 
-    protected async getElementsAttributes(element: ElementHandle): Promise<Attributes> {
-        const findAttributes = (e: Element) => Array.from(e.attributes).reduce((a: Attributes, c: any) => a[c.name] = c.value && a, {length: 0});
-        return await this.page.evaluate(findAttributes, element);
-    }
-
     protected async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: any) => boolean): Promise<Object> {
         const elements = await rootElement.$$(selector);
         let attributes = {};
@@ -39,6 +34,12 @@ export class Page {
             attributes = Object.assign(filteredAttributes, attributes);
         }
         return attributes;
+    }
+
+    private async getElementsAttributes(element: ElementHandle) {
+        return await this.page.evaluate((e) => Array.from(e.attributes).map((a: Attr | any) => {
+            return {name: a.name, value: a.value}
+        }), element);
     }
 }
 
