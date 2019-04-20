@@ -31,12 +31,16 @@ export abstract class Site {
             return this._currentPageUrl;
         }
 
-        this._currentPageUrl = {url: await this.paginateCategoryPage(), name: this._currentPageUrl.name};
-
-        if (!this._currentPageUrl.url) {
+        try {
+            const url = await this.paginateCategoryPage();
+            this._currentPageUrl = {url: url, name: this._currentPageUrl.name};
+        } catch (e) {
+            console.log("couldn't find next page")
             this._currentPageUrl = null;
-            return this.getNextPage();
+
+            return await this.getNextPage();
         }
+
         return this._currentPageUrl;
     };
 

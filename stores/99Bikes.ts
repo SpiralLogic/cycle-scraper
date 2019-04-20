@@ -11,15 +11,14 @@ export class Bikes99 extends Site {
         const products: Products = [];
 
         for await (const p of await this.page.$$(".product-item-info")) {
-            const name = await this.page.getAttributeValue(p, `data-name`);
+            const name = await this.page.getAttributeValue(p, "[data-name]");
             const url = await this.page.getPropertyValue(p, "a", "href");
             const images = await this.page.getImageUrls(p);
-            //const prices = await this.page.getAllAttributeValues(p, "[data-price-amount]", "data-price-type", "data-price-amount");
             const productData = await this.page.getAllAttributes(p, ".product-item-info a", (a) => a.name.startsWith("data-"));
             const prices = await this.getProductPrices(p);
             const product = Object.assign(productData, {name, url, images, prices});
 
-            products.push(Object.assign(productData, product));
+            products.push(product);
         }
 
         return products;

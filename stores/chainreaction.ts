@@ -1,35 +1,34 @@
-import {Page} from "puppeteer";
-import {Product, ProductImage, Products} from "../ProductInterfaces";
+import {Products} from "../ProductInterfaces";
 import {Site} from "../Site";
+import {ElementHandle} from "puppeteer";
 
 export class ChainReaction extends Site {
-    constructor() {
-        super("ChainReaction", ".pagination a.active + a");
-    }
+    public readonly name = "ChainReaction";
+    protected nextPageSelector: string = ".pagination a.active + a";
 
-    getProducts = async (page: Page): Promise<Products> => {
+    getProducts = async (): Promise<Products> => {
         const products: Products = [];
-        const productElements = await page.$$(".products_details");
+        for await (const p of await this.page.$$(".products_details")) {
+            const name = await this.page.getPropertyValue(p, ".description", "innerText");
+            const category = this.currentPageUrl!.name;
+            const url = await this.page.getPropertyValue(p, "a", "href");
+            const prices = await this.getProductPrices(p);
+            const images = (await this.page.getImageUrls(p)).filter(i => i.description);
 
-        for await (const p of productElements) {
-            const url = await this.getAttributeValue(page, await p.$("a"), "href");
-            const rrPrice = {type: "rrp", amount: await this.getPropertyValue(p, ".rrpamount", "innerText")};
-            const salePrice = {type: "sale", amount: await this.getPropertyValue(p, ".fromamt", "innerText")};
-            const name = await this.getPropertyValue(p, ".description", "innerText");
-            const images: ProductImage[] = await this.getImageLinks(p);
-
-            const product: Product = {
-                name, url,
-                category: this.currentPageUrl!.name,
-                prices: [rrPrice, salePrice],
-                images: images,
-            };
-
-            products.push(product);
+            products.push({name, url, images, prices, category});
         }
 
         return products;
     };
+
+    private async getProductPrices(p: ElementHandle) {
+        const prices: { [index: string]: any } = {};
+        prices["rrp"] = await this.page.getPropertyValue(p, ".rrpamount", "innerText");
+        prices["salePrice"] = await this.page.getPropertyValue(p, ".fromamt", "innerText");
+        prices["savedAmount"] = await this.page.getPropertyValue(p, ".savedamount", "innerText");
+
+        return prices;
+    }
 
     initializeProductUrls() {
         return [
@@ -103,18 +102,18 @@ export class ChainReaction extends Site {
             {url: "https://www.chainreactioncycles.com/au/en/clothing-care", name: "clothing-care"},
             {url: "https://www.chainreactioncycles.com/au/en/compression-wear", name: "compression-wear"},
             {url: "https://www.chainreactioncycles.com/au/en/cycle-caps", name: "cycle-caps"},
-            // {url: "https://www.chainreactioncycles.com/au/en/gilets-cycle", name: "gilets-cycle"},
-            // {url: "https://www.chainreactioncycles.com/au/en/gloves", name: "gloves"},
-            // {url: "https://www.chainreactioncycles.com/au/en/high-viz", name: "high-viz"},
-            // {url: "https://www.chainreactioncycles.com/au/en/jackets-casual", name: "jackets-casual"},
-            // {url: "https://www.chainreactioncycles.com/au/en/jackets-cycle", name: "jackets-cycle"},
-            // {url: "https://www.chainreactioncycles.com/au/en/jackets-run", name: "jackets-run"},
-            // {url: "https://www.chainreactioncycles.com/au/en/jeans-pants", name: "jeans-pants"},
-            // {url: "https://www.chainreactioncycles.com/au/en/jerseys-cycle", name: "jerseys-cycle"},
-            // {url: "https://www.chainreactioncycles.com/au/en/leg-warmers", name: "leg-warmers"},
-            // {url: "https://www.chainreactioncycles.com/au/en/pants-cycle", name: "pants-cycle"},
-            // {url: "https://www.chainreactioncycles.com/au/en/running-accessories", name: "running-accessories"},
-            // {url: "https://www.chainreactioncycles.com/au/en/shirts", name: "shirts"},
+            {url: "https://www.chainreactioncycles.com/au/en/gilets-cycle", name: "gilets-cycle"},
+            {url: "https://www.chainreactioncycles.com/au/en/gloves", name: "gloves"},
+            {url: "https://www.chainreactioncycles.com/au/en/high-viz", name: "high-viz"},
+            {url: "https://www.chainreactioncycles.com/au/en/jackets-casual", name: "jackets-casual"},
+            {url: "https://www.chainreactioncycles.com/au/en/jackets-cycle", name: "jackets-cycle"},
+            {url: "https://www.chainreactioncycles.com/au/en/jackets-run", name: "jackets-run"},
+            {url: "https://www.chainreactioncycles.com/au/en/jeans-pants", name: "jeans-pants"},
+            {url: "https://www.chainreactioncycles.com/au/en/jerseys-cycle", name: "jerseys-cycle"},
+            {url: "https://www.chainreactioncycles.com/au/en/leg-warmers", name: "leg-warmers"},
+            {url: "https://www.chainreactioncycles.com/au/en/pants-cycle", name: "pants-cycle"},
+            {url: "https://www.chainreactioncycles.com/au/en/running-accessories", name: "running-accessories"},
+            {url: "https://www.chainreactioncycles.com/au/en/shirts", name: "shirts"},
             // {url: "https://www.chainreactioncycles.com/au/en/shorts-casual", name: "shorts-casual"},
             // {url: "https://www.chainreactioncycles.com/au/en/shorts-cycle", name: "shorts-cycle"},
             // {url: "https://www.chainreactioncycles.com/au/en/shorts-run", name: "shorts-run"},
@@ -175,4 +174,5 @@ export class ChainReaction extends Site {
             // {url: "https://www.chainreactioncycles.com/au/en/water-bottles", name: "water-bottles"}
         ];
     }
+
 }

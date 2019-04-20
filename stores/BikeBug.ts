@@ -16,7 +16,6 @@ export class BikeBug extends Site {
             const productData = await this.page.getAllAttributes(p, "[itemprop]", (a) => a.value);
             const prices = await this.getProductPrices(p);
             const product = Object.assign(productData, {name, url, images, prices});
-            
 
             products.push(product);
         }

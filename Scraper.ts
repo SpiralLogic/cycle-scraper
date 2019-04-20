@@ -1,4 +1,4 @@
-import { Site} from "./Site";
+import {Site} from "./Site";
 import {ProductPage, Products} from "./ProductInterfaces";
 import * as fs from "fs";
 import {BrowserEmulator} from "./BrowserEmulator";
@@ -14,23 +14,24 @@ export class Scraper {
     public getProductsForSite = async () => {
         const allProducts: Products = [];
         let completedPage: ProductPage | null = null;
-        let currentPage: ProductPage | null;
 
         try {
-            while ((currentPage = await this.site.getNextPage())) {
-                if (completedPage && currentPage.name !== completedPage.name) {
+            while (await this.site.getNextPage()) {
+                if (this.site.currentPageUrl == null) return;
+
+                if (completedPage && this.site.currentPageUrl.name !== completedPage.name) {
                     allProducts.length = 0;
                 }
 
-                console.log(`Doing page: ${currentPage.url}`);
+                console.log(`Doing page: ${this.site.currentPageUrl.url}`);
 
-                await this.site.goto(currentPage.url);
+                await this.site.goto(this.site.currentPageUrl.url);
                 const products = await this.site.getProducts();
                 allProducts.push(...products);
 
                 await writeProductsToJson(this.site, "products", allProducts);
 
-                completedPage = currentPage;
+                completedPage = this.site.currentPageUrl;
             }
         } catch (e) {
             console.log(e);
