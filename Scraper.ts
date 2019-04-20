@@ -4,27 +4,14 @@ import * as fs from "fs";
 import {BrowserEmulator} from "./BrowserEmulator";
 import {Page} from "./Page";
 
-
-export interface Scraper {
-    getProducts: (page: Page) => Promise<Products>,
-    currentCategoryPage: ProductPage | null,
-    getNextPage: (page: Page) => Promise<ProductPage | null>,
-}
-
 export class Scraper {
     private readonly site: Site;
-    private page: Page;
 
-    constructor(site: Site, page: Page) {
+    constructor(site: Site) {
         this.site = site;
-        this.page = page;
     }
 
     public getProductsForSite = async () => {
-        const emulator = await BrowserEmulator.New();
-
-        const page = await emulator.newPage();
-
         const allProducts: Products = [];
         let completedPage: ProductPage | null = null;
         let currentPage: ProductPage | null;
@@ -37,8 +24,8 @@ export class Scraper {
 
                 console.log(`Doing page: ${currentPage.url}`);
 
-                await page.goto(currentPage.url);
-                const products = await this.site.getProducts(page);
+                await this.site.goto(currentPage.url);
+                const products = await this.site.getProducts();
                 allProducts.push(...products);
 
                 await writeProductsToJson(this.site, "products", allProducts);
@@ -48,8 +35,6 @@ export class Scraper {
         } catch (e) {
             console.log(e);
         }
-
-        await emulator.close();
     };
 }
 

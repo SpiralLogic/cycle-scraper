@@ -3,7 +3,7 @@ import {ProductImage} from "./ProductInterfaces";
 
 export class Page {
     private page: PageScraper;
-    private options: DirectNavigationOptions;
+    private readonly options: DirectNavigationOptions;
 
     constructor(page: PageScraper, options: DirectNavigationOptions) {
         this.page = page;
@@ -23,22 +23,26 @@ export class Page {
         return await nextPageJHandle.jsonValue();
     }
 
+    public $$ = (selector: string): Promise<ElementHandle[]> => this.page.$$(selector);
+
     public getAttributeValue = async (element: ElementHandle, attributeName: string): Promise<string> => {
         return await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName);
     };
 
-    protected async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: any) => boolean): Promise<Object> {
+    public async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: Attribute) => boolean = () => true): Promise<Object> {
         const elements = await rootElement.$$(selector);
-        let attributes = {};
+        const attributes: Attributes = {};
         for await (const element of elements) {
             const filteredAttributes = Array.from(await this.getElementsAttributes(element)).filter(filter);
-            attributes = Object.assign(filteredAttributes, attributes);
+            filteredAttributes.forEach((a) => attributes[a.name] = a.value);
         }
+
         return attributes;
     }
 
     async getPropertyValue(p: ElementHandle, selector: string, propertyName: string) {
         const element = await p.$(selector);
+        if (!element) return "";
         return await this.getElementPropertyValue(element, propertyName);
     }
 
@@ -48,12 +52,12 @@ export class Page {
         }), element);
     }
 
-    getElementPropertyValue = async (element: ElementHandle | null, propertyName: string): Promise<string> => {
-        const property = element && await element.getProperty(propertyName);
+    getElementPropertyValue = async (element: ElementHandle, propertyName: string): Promise<string> => {
+        const property = await element.getProperty(propertyName);
         return property ? await property.jsonValue() : "";
     };
 
-    protected async getImageLinks(parent: ElementHandle) {
+    async getImageUrls(parent: ElementHandle) {
         const images: ProductImage[] = [];
         for await (const imgElement of await parent.$$("img")) {
             images.push({
@@ -67,5 +71,8 @@ export class Page {
 
 type Attributes = {
     [index: string]: any,
-    length: number
+};
+type Attribute = {
+    name: any,
+    value: any,
 };

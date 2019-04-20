@@ -1,24 +1,28 @@
 import {ProductPage, Products} from "./ProductInterfaces";
 import {Page} from "./Page";
 
-
 export abstract class Site {
-    public readonly name: String = "Default Site";
-    protected readonly nextPageSelector: string = "div";
+    public abstract readonly name: String;
+    protected abstract nextPageSelector: string;
     private readonly categoryPageUrls: ProductPage[];
     private _currentPageUrl: ProductPage | null = null;
-    private page: Page;
+    protected page: Page;
 
     get currentPageUrl(): ProductPage | null {
         return this._currentPageUrl;
     }
 
-    protected constructor(page: Page) {
+    public constructor(page: Page) {
         this.page = page;
         this.categoryPageUrls = this.initializeProductUrls();
     }
 
-    public abstract getProducts(page: Page): Promise<Products>;
+    public goto = async (url: string) => {
+        return await this.page.goto(url)
+    }
+
+    public abstract getProducts(): Promise<Products>;
+
     protected abstract initializeProductUrls(): ProductPage[];
 
     public getNextPage = async (): Promise<ProductPage | null> => {
@@ -36,7 +40,7 @@ export abstract class Site {
         return this._currentPageUrl;
     };
 
-    private paginateCategoryPage= async  () => await this.page.getHref(this.nextPageSelector);
+    private paginateCategoryPage = async () => await this.page.getHref(this.nextPageSelector);
 
     private getNextCategoryUrl = () => this.categoryPageUrls.pop() || null;
 }
