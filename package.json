@@ -1,0 +1,21 @@
+{
+  "name": "pricescraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.14.0",
+    "puppeteer-core": "^1.14.0",
+    "typescript": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.5",
+    "@types/puppeteer": "^1.12.3"
+  }
+}
