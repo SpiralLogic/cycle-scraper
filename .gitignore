@@ -1,0 +1,13 @@
+
+.idea/
+*.map
+node_modules/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*.js
+*.iml
+out
+gen
+*.map
