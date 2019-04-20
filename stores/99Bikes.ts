@@ -1,9 +1,9 @@
-import {Products} from "../ProductInterfaces";
+import {ProductPage, Products} from "../ProductInterfaces";
 import {Site} from "../Site";
 import {ElementHandle} from "puppeteer";
 
 export class Bikes99 extends Site {
-    readonly name: String = "99Bikes";
+    readonly name: string = "99Bikes";
     protected nextPageSelector: string = ".pages-item-next a";
 
 
@@ -36,7 +36,7 @@ export class Bikes99 extends Site {
         return prices;
     }
 
-    initializeProductUrls() {
+    initializeProductUrls(): ProductPage[] {
         return [
             {url: "https://www.99bikes.com.au/accessories?p=1&product_list_limit=72", name: "accessories"},
             {url: "https://www.99bikes.com.au/parts-components?p=1&product_list_limit=72", name: "parts-components"},

@@ -10,24 +10,19 @@ export class Page {
         this.options = options;
     }
 
-    public goto = async (url: string) => {
-        return await this.page.goto(url, this.options)
-    }
+    public goto = async (url: string) => (await this.page.goto(url, this.options));
 
     public getHref = async (selector: string): Promise<string> => {
         const nextPaginatedPage = await this.page.$(selector);
         const nextPageJHandle = nextPaginatedPage && await nextPaginatedPage.getProperty("href");
 
-        if (!nextPageJHandle) throw new Error("Couldn't find element");
-
-        return await nextPageJHandle.jsonValue();
-    }
+        return (nextPageJHandle) ? nextPageJHandle.jsonValue() : "";
+    };
 
     public $$ = (selector: string): Promise<ElementHandle[]> => this.page.$$(selector);
 
-    public getAttributeValue = async (element: ElementHandle, attributeName: string): Promise<string> => {
-        return await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName);
-    };
+    public getAttributeValue = async (element: ElementHandle, attributeName: string): Promise<string> =>
+        (await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName));
 
     public async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: Attribute) => boolean = () => true): Promise<Object> {
         const elements = await rootElement.$$(selector);
@@ -42,14 +37,13 @@ export class Page {
 
     async getPropertyValue(p: ElementHandle, selector: string, propertyName: string) {
         const element = await p.$(selector);
-        if (!element) return "";
-        return await this.getElementPropertyValue(element, propertyName);
+        return (!element) ? "" : await this.getElementPropertyValue(element, propertyName);
     }
 
     private async getElementsAttributes(element: ElementHandle) {
-        return await this.page.evaluate((e) => Array.from(e.attributes).map((a: Attr | any) => {
-            return {name: a.name, value: a.value}
-        }), element);
+        return await this.page.evaluate((e) =>
+            Array.from(e.attributes).map((a: Attr | any) =>
+                ({name: a.name, value: a.value})), element);
     }
 
     getElementPropertyValue = async (element: ElementHandle, propertyName: string): Promise<string> => {

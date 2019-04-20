@@ -1,8 +1,10 @@
-export type Products = Array<Product>;
-export type  Product = {
+export type Products = Product[];
+
+export interface Product {
     name: string,
     images: ProductImage[],
     url: string | null,
+
     [x: string]: any,
 }
 
@@ -12,6 +14,6 @@ export interface ProductImage {
 }
 
 export interface ProductPage {
-    url: string,
-    name: string,
+    url?: string,
+    name?: string,
 }

@@ -1,50 +1,50 @@
-import {ProductPage, Products} from "./ProductInterfaces";
 import {Page} from "./Page";
+import {ProductPage, Products} from "./ProductInterfaces";
 
 export abstract class Site {
-    public abstract readonly name: String;
-    protected abstract nextPageSelector: string;
-    private readonly categoryPageUrls: ProductPage[];
-    private _currentPageUrl: ProductPage | null = null;
-    protected page: Page;
-
-    get currentPageUrl(): ProductPage | null {
+    get currentPageUrl(): ProductPage {
         return this._currentPageUrl;
     }
+
+    public abstract readonly name: string;
+    protected abstract nextPageSelector: string;
+    protected page: Page;
+    private readonly categoryPageUrls: ProductPage[];
+    private _currentPageUrl: ProductPage = {};
 
     public constructor(page: Page) {
         this.page = page;
         this.categoryPageUrls = this.initializeProductUrls();
     }
 
-    public goto = async (url: string) => {
-        return await this.page.goto(url)
-    }
+    public goto = async (page: ProductPage) => page.url && (await this.page.goto(page.url));
 
     public abstract getProducts(): Promise<Products>;
 
-    protected abstract initializeProductUrls(): ProductPage[];
-
-    public getNextPage = async (): Promise<ProductPage | null> => {
-        if (!this._currentPageUrl) {
+    public getNextPage = async (): Promise<ProductPage> => {
+        if (!this._currentPageUrl.url) {
             this._currentPageUrl = this.getNextCategoryUrl();
             return this._currentPageUrl;
         }
 
-        try {
-            const url = await this.paginateCategoryPage();
-            this._currentPageUrl = {url: url, name: this._currentPageUrl.name};
-        } catch (e) {
-            console.log("couldn't find next page")
-            this._currentPageUrl = null;
+        this._currentPageUrl = {name: this._currentPageUrl.name, url: await this.paginateCategoryPage()};
+        if (!this._currentPageUrl.url) {
+            console.log("couldn't find next page");
 
+            this._currentPageUrl = {};
             return await this.getNextPage();
         }
 
         return this._currentPageUrl;
     };
 
-    private paginateCategoryPage = async () => await this.page.getHref(this.nextPageSelector);
+    protected abstract initializeProductUrls(): ProductPage[];
 
-    private getNextCategoryUrl = () => this.categoryPageUrls.pop() || null;
+    private paginateCategoryPage = async (): Promise<string> => {
+        return await this.page.getHref(this.nextPageSelector);
+    };
+
+    private getNextCategoryUrl = (): ProductPage => {
+        return this.categoryPageUrls.pop() || {};
+    }
 }

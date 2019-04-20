@@ -3,7 +3,7 @@ import {Site} from "../Site";
 import {ElementHandle} from "puppeteer";
 
 export class ProBikeKit extends Site {
-    readonly name: String = "ProBikeKit";
+    readonly name: string = "ProBikeKit";
     protected nextPageSelector: string = ".responsivePageSelectors [data-page-active] + a";
 
 

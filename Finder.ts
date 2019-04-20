@@ -15,10 +15,7 @@ class Finder {
         files.forEach(file => {
             const fileContent = fs.readFileSync("data/" + file);
             const read: Products = JSON.parse(fileContent.toString());
-            read.forEach((p: Product) => {
-                products.push(p);
-            });
-
+            read.forEach((p: Product) => products.push(p));
         });
 
         return products;
@@ -35,9 +32,7 @@ class Finder {
         return s.filter(p => p.name.toUpperCase().includes(upperSearch)).map(p => [p.name, p.prices, (new URL(p.url || "")).hostname]);
     };
 
-    countProducts = (): number => {
-        return this.products.length;
-    }
+    countProducts = (): number => this.products.length;
 }
 
 
