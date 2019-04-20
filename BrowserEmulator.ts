@@ -9,8 +9,9 @@ export class BrowserEmulator implements Disposable {
         this.WAIT_OPTIONS = Object.freeze({waitUntil: 'networkidle2', timeout: 100000});
     }
 
-    public newPage = async () => await this.browser.newPage();
-    public close = async () => await this.browser.close();
+    public async newPage() {
+        return await this.browser.newPage();
+    }
 
     public static async New() {
         const instance = new BrowserEmulator();

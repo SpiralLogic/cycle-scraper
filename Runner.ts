@@ -43,6 +43,6 @@ export const getProductsForSite = async (site: SiteScraper) => {
         console.log(e);
     }
 
-    await emulator.close();
+    await browser.close();
     console.log(`Finished: ${site.name}`);
 };
