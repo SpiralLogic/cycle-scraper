@@ -18,7 +18,7 @@ export class BrowserEmulator {
 
     public newPage = async () => {
         const page = await this.browser.newPage();
-        return new Page(page);
+        return new Page(page, BrowserEmulator.DEFAULT_WAIT_OPTIONS);
     };
 
     public close = async () => await this.browser.close();

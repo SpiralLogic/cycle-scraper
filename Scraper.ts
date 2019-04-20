@@ -1,8 +1,8 @@
-import {Page} from "puppeteer";
 import {ProductPage, Site} from "./Site";
 import {Products} from "./ProductInterfaces";
 import * as fs from "fs";
 import {BrowserEmulator} from "./BrowserEmulator";
+import {Page} from "./Page";
 
 export class Scraper {
     private readonly site: Site;
