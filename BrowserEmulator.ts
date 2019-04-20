@@ -1,16 +1,12 @@
 import * as puppeteer from "puppeteer";
 import {DirectNavigationOptions} from "puppeteer";
+import {Page} from "./Page";
 
-export class BrowserEmulator implements Disposable {
+export class BrowserEmulator {
     private browser: any;
-    public readonly WAIT_OPTIONS: DirectNavigationOptions;
+    public static readonly DEFAULT_WAIT_OPTIONS: DirectNavigationOptions = Object.freeze({waitUntil: 'networkidle2', timeout: 100000});
 
     private constructor() {
-        this.WAIT_OPTIONS = Object.freeze({waitUntil: 'networkidle2', timeout: 100000});
-    }
-
-    public async newPage() {
-        return await this.browser.newPage();
     }
 
     public static async New() {
@@ -20,6 +16,13 @@ export class BrowserEmulator implements Disposable {
         return instance;
     }
 
+    public newPage = async () => {
+        const page = await this.browser.newPage();
+        return new Page(page);
+    };
+
+    public close = async () => await this.browser.close();
+
     private async setupBrowser() {
         this.browser = await puppeteer.launch({
             headless: false,
@@ -27,3 +30,4 @@ export class BrowserEmulator implements Disposable {
         });
     }
 }
+

@@ -1,8 +1,8 @@
 import {Page} from "puppeteer";
 import {Product, ProductImage, Products} from "../ProductInterfaces";
-import {SiteScraper} from "../SiteScraper";
+import {Site} from "../Site";
 
-export class ChainReaction extends SiteScraper {
+export class ChainReaction extends Site {
     constructor() {
         super("ChainReaction", ".pagination a.active + a");
     }

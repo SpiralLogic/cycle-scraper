@@ -1,8 +1,8 @@
 import {ElementHandle, Page} from "puppeteer";
 import {Products} from "../ProductInterfaces";
-import {SiteScraper} from "../SiteScraper";
+import {Site} from "../Site";
 
-export class BikeBug extends SiteScraper {
+export class BikeBug extends Site {
     constructor() {
         super("BikeBug", ".page-item:last-child:not(.active) a");
     };

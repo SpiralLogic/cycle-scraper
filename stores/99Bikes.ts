@@ -1,8 +1,8 @@
 import {Page} from "puppeteer";
 import {Product, Products} from "../ProductInterfaces";
-import {SiteScraper} from "../SiteScraper";
+import {Site} from "../Site";
 
-export class Bikes99 extends SiteScraper {
+export class Bikes99 extends Site {
     constructor() {
         super("99Bikes", ".pages-item-next a");
     };
