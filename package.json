@@ -2,7 +2,7 @@
   "name": "pricescraper",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "scraper.js",
   "scripts": {
     "tsc": "tsc -p tsconfig.json"
   },

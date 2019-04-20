@@ -1,8 +1,7 @@
+import {Product, ProductImage, Products, ProductWebsite} from "./ProductWebsite";
 import {Page} from "puppeteer";
-import {Product, ProductImage, Products} from "../ProductInterfaces";
-import {Site} from "../Site";
 
-export class ChainReaction extends Site {
+export class ChainReaction extends ProductWebsite {
     constructor() {
         super("ChainReaction", ".pagination a.active + a");
     }
@@ -12,7 +11,7 @@ export class ChainReaction extends Site {
         const productElements = await page.$$(".products_details");
 
         for await (const p of productElements) {
-            const url = await this.getAttributeValue(page, await p.$("a"), "href");
+            const url = await this.getElementAttributeValue(page, await p.$("a"), "href");
             const rrPrice = {type: "rrp", amount: await this.getPropertyValue(p, ".rrpamount", "innerText")};
             const salePrice = {type: "sale", amount: await this.getPropertyValue(p, ".fromamt", "innerText")};
             const name = await this.getPropertyValue(p, ".description", "innerText");
@@ -31,7 +30,7 @@ export class ChainReaction extends Site {
         return products;
     };
 
-    initializeProductPages() {
+    resetProductPages() {
         return [
             {url: "https://www.chainreactioncycles.com/au/en/bmx-bikes", name: "bmx-bikes"},
             {url: "https://www.chainreactioncycles.com/au/en/bike-trailers", name: "bike-trailers"},
@@ -93,16 +92,16 @@ export class ChainReaction extends Site {
             {url: "https://www.chainreactioncycles.com/au/en/tubeless-kits", name: "tubeless-kits"},
             {url: "https://www.chainreactioncycles.com/au/en/tubes", name: "tubes"},
             {url: "https://www.chainreactioncycles.com/au/en/tyres", name: "tyres"},
-            {url: "https://www.chainreactioncycles.com/au/en/valve-caps", name: "valve-caps"},
-            {url: "https://www.chainreactioncycles.com/au/en/wheels", name: "wheels"},
-            {url: "https://www.chainreactioncycles.com/au/en/anti-pollution-masks", name: "anti-pollution-masks"},
-            {url: "https://www.chainreactioncycles.com/au/en/arm-warmers", name: "arm-warmers"},
-            {url: "https://www.chainreactioncycles.com/au/en/base-layers", name: "base-layers"},
-            {url: "https://www.chainreactioncycles.com/au/en/beanies-and-caps", name: "beanies-and-caps"},
-            {url: "https://www.chainreactioncycles.com/au/en/belts", name: "belts"},
-            {url: "https://www.chainreactioncycles.com/au/en/clothing-care", name: "clothing-care"},
-            {url: "https://www.chainreactioncycles.com/au/en/compression-wear", name: "compression-wear"},
-            {url: "https://www.chainreactioncycles.com/au/en/cycle-caps", name: "cycle-caps"},
+            // {url: "https://www.chainreactioncycles.com/au/en/valve-caps", name: "valve-caps"},
+            // {url: "https://www.chainreactioncycles.com/au/en/wheels", name: "wheels"},
+            // {url: "https://www.chainreactioncycles.com/au/en/anti-pollution-masks", name: "anti-pollution-masks"},
+            // {url: "https://www.chainreactioncycles.com/au/en/arm-warmers", name: "arm-warmers"},
+            // {url: "https://www.chainreactioncycles.com/au/en/base-layers", name: "base-layers"},
+            // {url: "https://www.chainreactioncycles.com/au/en/beanies-and-caps", name: "beanies-and-caps"},
+            // {url: "https://www.chainreactioncycles.com/au/en/belts", name: "belts"},
+            // {url: "https://www.chainreactioncycles.com/au/en/clothing-care", name: "clothing-care"},
+            // {url: "https://www.chainreactioncycles.com/au/en/compression-wear", name: "compression-wear"},
+            // {url: "https://www.chainreactioncycles.com/au/en/cycle-caps", name: "cycle-caps"},
             // {url: "https://www.chainreactioncycles.com/au/en/gilets-cycle", name: "gilets-cycle"},
             // {url: "https://www.chainreactioncycles.com/au/en/gloves", name: "gloves"},
             // {url: "https://www.chainreactioncycles.com/au/en/high-viz", name: "high-viz"},
