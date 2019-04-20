@@ -1,0 +1,140 @@
+[
+  {
+    "data-product-title": "Topeak Flash Stand - Standard",
+    "data-product-id": "10772089",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "10772089",
+    "data-product-brand": "Topeak",
+    "data-product-price": "A$37.99",
+    "data-product-position": "1",
+    "name": "Topeak Flash Stand - Standard",
+    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/topeak-flash-stand-standard/10772089.html",
+    "images": [
+      {
+        "description": "Topeak Flash Stand - Standard",
+        "src": "https://s4.thcdn.com/productimg/0/300/300/89/10772089-1363093550-975037.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$56.49",
+      "rrp": "A$37.99",
+      "Save:": "A$18.50"
+    }
+  },
+  {
+    "data-product-title": "Saris Kool Rack Add-On",
+    "data-product-id": "11798422",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11798422",
+    "data-product-brand": "Saris",
+    "data-product-price": "A$57.99",
+    "data-product-position": "2",
+    "name": "Saris Kool Rack Add-On",
+    "url": "https://www.probikekit.com.au/cycling-accessories-nc/saris-kool-rack-add-on/11798422.html",
+    "images": [
+      {
+        "description": "Saris Kool Rack Add-On",
+        "src": "https://s2.thcdn.com/productimg/300/300/11798422-5264646330136081.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$67.99",
+      "rrp": "A$57.99",
+      "Save:": "A$10.00"
+    }
+  },
+  {
+    "data-product-title": "Topeak Flash Stand - Slim",
+    "data-product-id": "10772088",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "10772088",
+    "data-product-brand": "Topeak",
+    "data-product-price": "A$37.99",
+    "data-product-position": "3",
+    "name": "Topeak Flash Stand - Slim",
+    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/topeak-flash-stand-slim/10772088.html",
+    "images": [
+      {
+        "description": "Topeak Flash Stand - Slim",
+        "src": "https://s1.thcdn.com/productimg/0/300/300/88/10772088-1363093550-969466.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$56.49",
+      "rrp": "A$37.99",
+      "Save:": "A$18.50"
+    }
+  },
+  {
+    "data-product-title": "Saris Kool Rack",
+    "data-product-id": "11798421",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11798421",
+    "data-product-brand": "Saris",
+    "data-product-price": "A$445.49",
+    "data-product-position": "4",
+    "name": "Saris Kool Rack",
+    "url": "https://www.probikekit.com.au/cycling-accessories-nc/saris-kool-rack/11798421.html",
+    "images": [
+      {
+        "description": "Saris Kool Rack",
+        "src": "https://s4.thcdn.com/productimg/300/300/11798421-2014646329524942.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$523.99",
+      "rrp": "A$445.49",
+      "Save:": "A$78.50"
+    }
+  },
+  {
+    "data-product-title": "Evoc Bike Cover 360L/240L - Black",
+    "data-product-id": "11479633",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11479633",
+    "data-product-brand": "Evoc",
+    "data-product-price": "A$189.49",
+    "data-product-position": "5",
+    "name": "Evoc Bike Cover 360L/240L - Black",
+    "url": "https://www.probikekit.com.au/cycling-accessories/evoc-bike-cover-360l/240l-black/11479633.html",
+    "images": [
+      {
+        "description": "Evoc Bike Cover 360L/240L - Black",
+        "src": "https://s2.thcdn.com/productimg/300/300/11479633-8764494686621607.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$223.49",
+      "rrp": "A$189.49",
+      "Save:": "A$34.00"
+    }
+  },
+  {
+    "data-product-title": "Topeak Two Up Bike Stand",
+    "data-product-id": "11365956",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11365956",
+    "data-product-brand": "Topeak",
+    "data-product-price": "A$290.99",
+    "data-product-position": "6",
+    "name": "Topeak Two Up Bike Stand",
+    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance/topeak-two-up-bike-stand/11365956.html",
+    "images": [
+      {
+        "description": "Topeak Two Up Bike Stand",
+        "src": "https://s4.thcdn.com/productimg/300/300/11365956-1344454253086700.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$329.99",
+      "rrp": "A$290.99",
+      "Save:": "A$39.00"
+    }
+  }
+]

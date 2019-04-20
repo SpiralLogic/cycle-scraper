@@ -1,0 +1,71 @@
+[
+  {
+    "data-product-title": "Silverlabel Focus Action Cam 360",
+    "data-product-id": "11888080",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11888080",
+    "data-product-brand": "Silverlabel",
+    "data-product-price": "A$65.99",
+    "data-product-position": "1",
+    "name": "Silverlabel Focus Action Cam 360",
+    "url": "https://www.probikekit.com.au/cycling-accessories/silverlabel-focus-action-cam-360/11888080.html",
+    "images": [
+      {
+        "description": "Silverlabel Focus Action Cam 360",
+        "src": "https://s1.thcdn.com/productimg/300/300/11888080-5844630009062321.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$329.99",
+      "rrp": "A$65.99",
+      "Save:": "A$264.00"
+    }
+  },
+  {
+    "data-product-title": "Cycliq FLY 6 CE Rear Facing HD Camera with Light",
+    "data-product-id": "11639765",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11639765",
+    "data-product-brand": "Cycliq",
+    "data-product-price": "A$214.49",
+    "data-product-position": "2",
+    "name": "Cycliq FLY 6 CE Rear Facing HD Camera with Light",
+    "url": "https://www.probikekit.com.au/sports-cameras/cycliq-fly-6-ce-rear-facing-hd-camera-with-light/11639765.html",
+    "images": [
+      {
+        "description": "Cycliq FLY 6 CE Rear Facing HD Camera with Light",
+        "src": "https://s1.thcdn.com/productimg/300/300/11639765-1044541057806950.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$329.99",
+      "rrp": "A$214.49",
+      "Save:": "A$115.50"
+    }
+  },
+  {
+    "data-product-title": "Cycliq FLY 12 CE Front Facing Full HD Camera with Light",
+    "data-product-id": "11639764",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "false",
+    "data-product-master-product-id": "11639764",
+    "data-product-brand": "Cycliq",
+    "data-product-price": "A$326.49",
+    "data-product-position": "3",
+    "name": "Cycliq FLY 12 CE Front Facing Full HD Camera with Light",
+    "url": "https://www.probikekit.com.au/sports-cameras/cycliq-fly-12-ce-front-facing-full-hd-camera-with-light/11639764.html",
+    "images": [
+      {
+        "description": "Cycliq FLY 12 CE Front Facing Full HD Camera with Light",
+        "src": "https://s4.thcdn.com/productimg/300/300/11639764-2064541058082770.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$494.99",
+      "rrp": "A$326.49",
+      "Save:": "A$168.50"
+    }
+  }
+]

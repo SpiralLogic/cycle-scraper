@@ -1,0 +1,48 @@
+[
+  {
+    "data-product-title": "Skins A400 Short Sleeve Top - Black",
+    "data-product-id": "11063168",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "true",
+    "data-product-master-product-id": "11063168",
+    "data-product-brand": "Skins",
+    "data-product-price": "A$79.49",
+    "data-product-position": "1",
+    "name": "Skins A400 Short Sleeve Top - Black",
+    "url": "https://www.probikekit.com.au/sports-tops/skins-a400-short-sleeve-top-black/11063168.html",
+    "images": [
+      {
+        "description": "Skins A400 Short Sleeve Top - Black",
+        "src": "https://s1.thcdn.com/productimg/0/300/300/68/11063168-1423561745-438511.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$155.49",
+      "rrp": "A$79.49",
+      "Save:": "A$76.00"
+    }
+  },
+  {
+    "data-product-title": "Skins A400 Long Sleeve Top - Oblique",
+    "data-product-id": "11402521",
+    "data-product-category": "",
+    "data-product-is-master-product-id": "true",
+    "data-product-master-product-id": "11402521",
+    "data-product-brand": "Skins",
+    "data-product-price": "A$133.99",
+    "data-product-position": "2",
+    "name": "Skins A400 Long Sleeve Top - Oblique",
+    "url": "https://www.probikekit.com.au/sports-tops/skins-a400-long-sleeve-top-oblique/11402521.html",
+    "images": [
+      {
+        "description": "Skins A400 Long Sleeve Top - Oblique",
+        "src": "https://s4.thcdn.com/productimg/300/300/11402521-1384464846589686.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$174.99",
+      "rrp": "A$133.99",
+      "Save:": "A$41.00"
+    }
+  }
+]

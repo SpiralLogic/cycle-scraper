@@ -24,12 +24,26 @@ class Finder {
         return products;
     };
 
-    findProducts = (search: string): Products => {
-        return this.products.filter(p => p.name.includes(search))
+    public findProducts = (search: string): any => {
+        const upperSearch = search.toUpperCase();
+        const s = this.products.map(p => {
+            if (p["data-name"]) {
+                p["name"] = p["data-name"]
+            }
+            return p
+        });
+        return s.filter(p => p.name.toUpperCase().includes(upperSearch)).map(p => [p.name, p.prices, (new URL(p.url || "")).hostname]);
+    };
+
+    countProducts = (): number => {
+        return this.products.length;
     }
 }
 
 
 const f = new Finder();
+console.log(f.findProducts("wahoo"));
+//console.log(f.countProducts());
+//f.findProducts("Prime").forEach(p=> console.log(p.name, p.prices));
 
-f.findProducts("Prime").forEach(p=> console.log(p.name, p.prices));
+//console.log(f.findProducts("c" + f));
