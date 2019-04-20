@@ -3,35 +3,31 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Site_1 = require("../Site");
 class BikeBug extends Site_1.Site {
     constructor() {
-        super("BikeBug", ".page-item:last-child:not(.active) a");
-        this.getProducts = async (page) => {
+        super(...arguments);
+        this.nextPageSelector = ".page-item:last-child:not(.active) a";
+        this.name = "BikeBug";
+        this.getProducts = async () => {
             const products = [];
-            for await (const p of await page.$$(".products-row .card")) {
-                const name = await this.getPropertyValue(p, "[itemprop=name]", "innerText");
-                const url = await this.getPropertyValue(p, "a:last-child", "href");
-                const images = await this.getImageLinks(p);
-                const productData = await this.getAllAttributeValues(page, p, "[itemprop]", "itemprop", "content");
-                const prices = await this.getProductPrices(page, p);
-                const product = Object.assign(productData, { name, url, images, prices, image: "", price: "" });
-                delete product["image"];
-                delete product["price"];
+            for await (const p of await this.page.$$(".products-row .card")) {
+                const name = await this.page.getPropertyValue(p, "[itemprop=name]", "innerText");
+                const url = await this.page.getPropertyValue(p, "a:last-child", "href");
+                const images = await this.page.getImageUrls(p);
+                const productData = await this.page.getAllAttributes(p, "[itemprop]", (a) => a.value);
+                const prices = await this.getProductPrices(p);
+                const product = Object.assign(productData, { name, url, images, prices });
                 products.push(product);
             }
             return products;
         };
     }
-    ;
-    async getProductPrices(page, p, extraPrice) {
+    async getProductPrices(p, extraPrice) {
         const prices = {};
-        const price = await this.getPropertyValue(p, ".price", "textContent");
-        const price2 = await this.getPropertyValue(p, ".price", "innerText");
-        const price3 = await this.getAttributeValue(page, await p.$("[itemprop=price]"), "content");
+        const price = await this.page.getPropertyValue(p, ".price", "textContent");
+        const price2 = await this.page.getPropertyValue(p, ".price", "innerText");
         if (price)
             prices["salePrice"] = price.trim();
         if (price2)
             prices["salePrice2"] = price2.trim();
-        if (price3)
-            prices["salePrice3"] = price3.trim();
         if (extraPrice)
             prices["extraPrice"] = extraPrice;
         return prices;
