@@ -13,7 +13,7 @@ export class BikeBug extends Site {
         for await (const p of  await page.$$(".products-row .card")) {
             const name = await this.getPropertyValue(p, "[itemprop=name]", "innerText");
             const url = await this.getPropertyValue(p, "a:last-child", "href");
-            const images = await this.getProductImages(p);
+            const images = await this.getImageLinks(p);
             const productData = await this.getAllAttributeValues(page, p, "[itemprop]", "itemprop", "content");
             const prices = await this.getProductPrices(page, p);
             const product = Object.assign(productData, {name, url, images, prices, image: "",price:""});
@@ -40,7 +40,7 @@ export class BikeBug extends Site {
     }
 
 
-    initializeProductPages() {
+    initializeProductUrls() {
         return [
             {url: "https://www.bikebug.com/groupsets-components-c-55.html", name: "groupsets-components"},
             {url: "https://www.bikebug.com/tyres-tubes-c-180.html", name: "tyres-tubes"},

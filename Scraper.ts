@@ -1,8 +1,15 @@
-import {ProductPage, Site} from "./Site";
-import {Products} from "./ProductInterfaces";
+import { Site} from "./Site";
+import {ProductPage, Products} from "./ProductInterfaces";
 import * as fs from "fs";
 import {BrowserEmulator} from "./BrowserEmulator";
 import {Page} from "./Page";
+
+
+export interface Scraper {
+    getProducts: (page: Page) => Promise<Products>,
+    currentCategoryPage: ProductPage | null,
+    getNextPage: (page: Page) => Promise<ProductPage | null>,
+}
 
 export class Scraper {
     private readonly site: Site;
@@ -23,14 +30,14 @@ export class Scraper {
         let currentPage: ProductPage | null;
 
         try {
-            while ((currentPage = await this.site.getNextPage(page))) {
+            while ((currentPage = await this.site.getNextPage())) {
                 if (completedPage && currentPage.name !== completedPage.name) {
                     allProducts.length = 0;
                 }
 
                 console.log(`Doing page: ${currentPage.url}`);
 
-                await page.goto(currentPage.url, BrowserEmulator.DEFAULT_WAIT_OPTIONS);
+                await page.goto(currentPage.url);
                 const products = await this.site.getProducts(page);
                 allProducts.push(...products);
 
@@ -47,7 +54,7 @@ export class Scraper {
 }
 
 const writeProductsToJson = async (site: Site, filename: string, products: Products) => {
-    const category = site.currentCategoryPage!.name;
+    const category = site.currentPageUrl!.name;
     const file = site.name + "_" + category + "_" + filename + ".json";
 
     return await fs.writeFile("data/" + file, JSON.stringify(products), (err) => {

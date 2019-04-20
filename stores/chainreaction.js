@@ -12,10 +12,10 @@ class ChainReaction extends Site_1.Site {
                 const rrPrice = { type: "rrp", amount: await this.getPropertyValue(p, ".rrpamount", "innerText") };
                 const salePrice = { type: "sale", amount: await this.getPropertyValue(p, ".fromamt", "innerText") };
                 const name = await this.getPropertyValue(p, ".description", "innerText");
-                const images = await this.getProductImages(p);
+                const images = await this.getImageLinks(p);
                 const product = {
                     name, url,
-                    category: this.currentCategoryPage.name,
+                    category: this.currentPageUrl.name,
                     prices: [rrPrice, salePrice],
                     images: images,
                 };
@@ -24,7 +24,7 @@ class ChainReaction extends Site_1.Site {
             return products;
         };
     }
-    initializeProductPages() {
+    initializeProductUrls() {
         return [
             { url: "https://www.chainreactioncycles.com/au/en/bmx-bikes", name: "bmx-bikes" },
             { url: "https://www.chainreactioncycles.com/au/en/bike-trailers", name: "bike-trailers" },

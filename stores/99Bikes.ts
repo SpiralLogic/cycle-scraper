@@ -13,7 +13,7 @@ export class Bikes99 extends Site {
         for await (const p of await page.$$(".product-item-info")) {
             const name = await this.getAttributeValue(page, await p.$(`[data-name]`), `data-name`);
             const url = await this.getElementPropertyValue(await p.$(".product-item-info a"), "href");
-            const images = await this.getProductImages(p);
+            const images = await this.getImageLinks(p);
             const prices = await this.getAllAttributeValues(page, p, "[data-price-amount]", "data-price-type", "data-price-amount");
             const productData = await this.getAllElementsAttributes(page, p, ".product-item-info .photo", (a) => a.name.startsWith("data-"));
 
@@ -25,7 +25,7 @@ export class Bikes99 extends Site {
         return products;
     };
 
-    initializeProductPages() {
+    initializeProductUrls() {
         return [
             // {url: "https://www.99bikes.com.au/accessories?p=1&product_list_limit=72", name: "accessories"},
             // {url: "https://www.99bikes.com.au/parts-components?p=1&product_list_limit=72", name: "parts-components"},

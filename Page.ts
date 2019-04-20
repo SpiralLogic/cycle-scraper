@@ -1,4 +1,5 @@
 import {DirectNavigationOptions, ElementHandle, Page as PageScraper} from "puppeteer";
+import {ProductImage} from "./ProductInterfaces";
 
 export class Page {
     private page: PageScraper;
@@ -36,10 +37,31 @@ export class Page {
         return attributes;
     }
 
+    async getPropertyValue(p: ElementHandle, selector: string, propertyName: string) {
+        const element = await p.$(selector);
+        return await this.getElementPropertyValue(element, propertyName);
+    }
+
     private async getElementsAttributes(element: ElementHandle) {
         return await this.page.evaluate((e) => Array.from(e.attributes).map((a: Attr | any) => {
             return {name: a.name, value: a.value}
         }), element);
+    }
+
+    getElementPropertyValue = async (element: ElementHandle | null, propertyName: string): Promise<string> => {
+        const property = element && await element.getProperty(propertyName);
+        return property ? await property.jsonValue() : "";
+    };
+
+    protected async getImageLinks(parent: ElementHandle) {
+        const images: ProductImage[] = [];
+        for await (const imgElement of await parent.$$("img")) {
+            images.push({
+                description: await this.getElementPropertyValue(imgElement, "alt"),
+                src: await this.getElementPropertyValue(imgElement, "src")
+            })
+        }
+        return images;
     }
 }
 

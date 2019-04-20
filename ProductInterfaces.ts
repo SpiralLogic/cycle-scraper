@@ -10,3 +10,8 @@ export interface ProductImage {
     description: string | null;
     src: string | null;
 }
+
+export interface ProductPage {
+    url: string,
+    name: string,
+}
