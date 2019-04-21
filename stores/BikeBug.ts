@@ -20,7 +20,7 @@ export class BikeBug extends Site {
             products.push(product);
         }
 
-        return products;
+        return this.addProductMetaData(products);
     };
 
     private async getProductPrices(p: ElementHandle, extraPrice?: string) {
@@ -38,10 +38,10 @@ export class BikeBug extends Site {
     initializeProductUrls() {
         return [
             {url: "https://www.bikebug.com/groupsets-components-c-55.html", name: "groupsets-components"},
-            // {url: "https://www.bikebug.com/tyres-tubes-c-180.html", name: "tyres-tubes"},
-            // {url: "https://www.bikebug.com/shoes-helmets-c-303.html", name: "shoes-helmets"},
-            // {url: "https://www.bikebug.com/clothing-c-75.html", name: "clothing"},
-            // {url: "https://www.bikebug.com/nutrition-c-155.html", name: "nutrition"},
+            {url: "https://www.bikebug.com/tyres-tubes-c-180.html", name: "tyres-tubes"},
+            {url: "https://www.bikebug.com/shoes-helmets-c-303.html", name: "shoes-helmets"},
+            {url: "https://www.bikebug.com/clothing-c-75.html", name: "clothing"},
+            {url: "https://www.bikebug.com/nutrition-c-155.html", name: "nutrition"},
             // {url: "https://www.bikebug.com/accessories-c-33.html", name: "accessories"}
         ];
     }

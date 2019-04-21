@@ -1,28 +1,30 @@
-import {Scraper} from "./Scraper";
 import {BrowserEmulator} from "./BrowserEmulator";
 import {Bikes99} from "./stores/99Bikes";
 import {ProBikeKit} from "./stores/ProBikeKit";
+import {BikeBug} from "./stores/BikeBug";
+import {ChainReaction} from "./stores/chainreaction";
+import {Scraper} from "./Scraper";
+import {Page} from "./Page";
 
 (async () => {
-    const emulator = await BrowserEmulator.New();
-    const emulator1 = await BrowserEmulator.New();
-//    const emulator2 = await BrowserEmulator.New();
+    const emulators: BrowserEmulator[] = [];
 
-    const scrapers = [
-        new Scraper(new ProBikeKit(await emulator.newPage())),
-        // new Scraper(new BikeBug(await emulator.newPage())),
-        new Scraper(new Bikes99(await emulator1.newPage())),
-        //    new Scraper(new ChainReaction(await emulator2.newPage())),
+    const pageMaker = async (): Promise<Page> => {
+        emulators.unshift(await BrowserEmulator.New());
+        return await emulators[0].newPage();
+    }
+
+    const sites = [
+        new Scraper(new ProBikeKit(await pageMaker())),
+        new Scraper(new BikeBug(await pageMaker())),
+        new Scraper(new Bikes99(await pageMaker())),
+        new Scraper(new ChainReaction(await pageMaker())),
     ];
-    Promise.all([
-        scrapers[0].getProductsForSite(),
-        scrapers[1].getProductsForSite(),
-        //     scrapers[2].getProductsForSite(),
-    ]).then(async () => {
+
+    await Promise.all(sites.map(async s => (await s.getProductsForSite())));
+
+    for await (const emulator of emulators) {
         await emulator.close();
-        await emulator1.close();
-        //      await emulator1.close();
-    }).then(() => {
-        console.log("finished!");
-    });
+    }
+
 })();

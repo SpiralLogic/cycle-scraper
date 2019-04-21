@@ -3,9 +3,11 @@ import {Product, Products} from "./ProductInterfaces";
 
 class Finder {
     private readonly products: Products = [];
+    private readonly sitePriceMap: Map<string, string>;
 
     constructor() {
         this.products = this.loadProducts();
+        this.sitePriceMap = Finder.createSitePriceMap();
     }
 
     loadProducts = (): Products => {
@@ -29,16 +31,35 @@ class Finder {
             }
             return p
         });
-        return s.filter(p => p.name.toUpperCase().includes(upperSearch)).map(p => [p.name, p.prices, (new URL(p.url || "")).hostname]);
+
+        const r = s.filter(p => p.name.toUpperCase().includes(upperSearch))
+            .map(p => [p.name, this.getPrice(p.prices, p.site), p.site]);
+
+        return r.join(",");
     };
 
+    private getPrice(p:{}, site: string) {
+        const id = this.sitePriceMap.get(site);
+        // @ts-ignore
+        return p && p[id];
+    }
+
     countProducts = (): number => this.products.length;
+
+    private static createSitePriceMap = () => {
+        const map = new Map<string, string>();
+        map.set("BikeBug", "salePrice");
+        map.set("99Bikes", "finalPrice");
+        map.set("ChainReaction", "salePrice");
+        map.set("ProBikeKit", "rrp");
+        return map;
+    };
 }
 
 
 const f = new Finder();
-console.log(f.findProducts("wahoo"));
+//console.log(f.findProducts("wahoo"));
 //console.log(f.countProducts());
-//f.findProducts("Prime").forEach(p=> console.log(p.name, p.prices));
+console.log(f.findProducts("LifeLine Bike"));
 
 //console.log(f.findProducts("c" + f));

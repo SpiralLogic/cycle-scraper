@@ -47,4 +47,12 @@ export abstract class Site {
     private getNextCategoryUrl = (): ProductPage => {
         return this.categoryPageUrls.pop() || {};
     }
+
+    protected addProductMetaData = (products: Products): Products => {
+        products.forEach(p => {
+            p["site"] = this.name;
+            p["category"] = this._currentPageUrl.name;
+        });
+        return products;
+    }
 }

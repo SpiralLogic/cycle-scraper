@@ -10,15 +10,14 @@ export class ChainReaction extends Site {
         const products: Products = [];
         for await (const p of await this.page.$$(".products_details")) {
             const name = await this.page.getPropertyValue(p, ".description", "innerText");
-            const category = this.currentPageUrl!.name;
             const url = await this.page.getPropertyValue(p, "a", "href");
             const prices = await this.getProductPrices(p);
             const images = (await this.page.getImageUrls(p)).filter(i => i.description);
 
-            products.push({name, url, images, prices, category});
+            products.push({name, url, images, prices});
         }
 
-        return products;
+        return this.addProductMetaData(products);
     };
 
     private async getProductPrices(p: ElementHandle) {

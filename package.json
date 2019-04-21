@@ -10,12 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.441.0",
     "puppeteer": "^1.14.0",
     "puppeteer-core": "^1.14.0",
     "typescript": "^3.4.3"
   },
   "devDependencies": {
-    "@types/node": "^11.13.5",
+    "@types/node": "^11.13.6",
     "@types/puppeteer": "^1.12.3"
   }
 }

@@ -7,7 +7,6 @@ export class ProBikeKit extends Site {
     readonly name: string = "ProBikeKit";
     protected nextPageSelector: string = ".responsivePageSelectors [data-page-active] + a";
 
-
     getProducts = async (): Promise<Products> => {
         const products: Products = [];
 
@@ -21,7 +20,7 @@ export class ProBikeKit extends Site {
             products.push(Object.assign({name, url, images, prices}, this.prepareProductData(attributes)));
         }
 
-        return products;
+        return this.addProductMetaData(products);
     };
 
     private prepareProductData = (attributes: Attributes) => {

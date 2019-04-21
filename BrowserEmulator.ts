@@ -25,7 +25,7 @@ export class BrowserEmulator {
 
     private async setupBrowser() {
         this.browser = await puppeteer.launch({
-            //    headless: false,
+            //headless: false,
             defaultViewport: {width: 1600, height: 1200}
         });
     }

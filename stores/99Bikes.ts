@@ -19,7 +19,8 @@ export class Bikes99 extends Site {
 
             products.push(Object.assign({name: "", url, images, prices}, this.prepareProductData(attributes)));
         }
-        return products;
+
+        return this.addProductMetaData(products);
     };
 
     private prepareProductData = (attributes: Attributes) => {
@@ -45,11 +46,11 @@ export class Bikes99 extends Site {
 
     initializeProductUrls(): ProductPage[] {
         return [
-            // {url: "https://www.99bikes.com.au/accessories?p=1&product_list_limit=72", name: "accessories"},
-            // {url: "https://www.99bikes.com.au/parts-components?p=1&product_list_limit=72", name: "parts-components"},
-            // {url: "https://www.99bikes.com.au/helmets?p=1&product_list_limit=72", name: "helmets"},
-            // {url: "https://www.99bikes.com.au/apparel?p=1&product_list_limit=72", name: "apparel"},
-            //  {url: "https://www.99bikes.com.au/on-sale?p=1&product_list_limit=72", name: "on-sale"},
+            {url: "https://www.99bikes.com.au/accessories?p=1&product_list_limit=72", name: "accessories"},
+            {url: "https://www.99bikes.com.au/parts-components?p=1&product_list_limit=72", name: "parts-components"},
+            {url: "https://www.99bikes.com.au/helmets?p=1&product_list_limit=72", name: "helmets"},
+            {url: "https://www.99bikes.com.au/apparel?p=1&product_list_limit=72", name: "apparel"},
+            {url: "https://www.99bikes.com.au/on-sale?p=1&product_list_limit=72", name: "on-sale"},
             // {url: "https://www.99bikes.com.au/tools-maintenance?p=1&product_list_limit=72", name: "tools-maintenance"},
             {url: "https://www.99bikes.com.au/car-racks?p=1&product_list_limit=72", name: "car-racks"},
         ];
