@@ -17,3 +17,4 @@ export interface ProductPage {
     url?: string,
     name?: string,
 }
+

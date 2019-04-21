@@ -13,7 +13,7 @@ export class BikeBug extends Site {
             const name = await this.page.getPropertyValue(p, "[itemprop=name]", "innerText");
             const url = await this.page.getPropertyValue(p, "a:last-child", "href");
             const images = await this.page.getImageUrls(p);
-            const productData = await this.page.getAllAttributes(p, "[itemprop]", (a) => a.value);
+            const productData = await this.page.getAllAttributes(p, "[itemprop]", (a) => !!a.value);
             const prices = await this.getProductPrices(p);
             const product = Object.assign(productData, {name, url, images, prices});
 

@@ -22,11 +22,13 @@ export class Page {
     public $$ = (selector: string): Promise<ElementHandle[]> => this.page.$$(selector);
 
     public getAttributeValue = async (element: ElementHandle, attributeName: string): Promise<string> =>
-        (await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName));
+        (await this.page.evaluate((e, a) => e.getAttribute(a), element, attributeName.replace(/^\[/, "").replace(/]$/, "")));
 
-    public async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: Attribute) => boolean = () => true): Promise<Object> {
+    public async getAllAttributes(rootElement: ElementHandle, selector: string, filter: (a: Attribute) => boolean = () => true): Promise<Attributes> {
         const elements = await rootElement.$$(selector);
-        const attributes: Attributes = {};
+
+        const attributes = AttributesFactory.new();
+
         for await (const element of elements) {
             const filteredAttributes = Array.from(await this.getElementsAttributes(element)).filter(filter);
             filteredAttributes.forEach((a) => attributes[a.name] = a.value);
@@ -63,10 +65,26 @@ export class Page {
     }
 }
 
-type Attributes = {
+interface Attributes {
     [index: string]: any,
+
+    [Symbol.iterator](): IterableIterator<Attribute>,
+}
+
+export const AttributesFactory = {
+    new: function (): Attributes {
+        return {
+            [Symbol.iterator]: function* (): IterableIterator<Attribute> {
+                for (const key of Object.keys(this)) {
+                    yield {name: key, value: this[key]};
+                }
+            }
+        }
+    }
 };
-type Attribute = {
-    name: any,
+
+interface Attribute {
+    name: string,
     value: any,
-};
+}
+
