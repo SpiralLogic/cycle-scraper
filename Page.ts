@@ -65,7 +65,7 @@ export class Page {
     }
 }
 
-interface Attributes {
+export interface Attributes {
     [index: string]: any,
 
     [Symbol.iterator](): IterableIterator<Attribute>,

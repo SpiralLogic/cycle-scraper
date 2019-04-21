@@ -1,6 +1,7 @@
 import {Products} from "../ProductInterfaces";
 import {Site} from "../Site";
 import {ElementHandle} from "puppeteer";
+import {Attributes} from "../Page";
 
 export class ProBikeKit extends Site {
     readonly name: string = "ProBikeKit";
@@ -14,14 +15,22 @@ export class ProBikeKit extends Site {
             const name = await this.page.getPropertyValue(p, ".productBlock_title", "innerText");
             const url = await this.page.getPropertyValue(p, "a", "href");
             const images = await this.page.getImageUrls(p);
-            const productData = await this.page.getAllAttributes(p, ".js-enhanced-ecommerce-data", (a) => a.name.startsWith("data-product-"));
             const prices = await this.getProductPrices(p);
-            const product = Object.assign(productData, {name, url, images, prices});
+            const attributes = await this.page.getAllAttributes(p, ".js-enhanced-ecommerce-data", (a) => a.name.startsWith("data-product-"));
 
-            products.push(product);
+            products.push(Object.assign({name, url, images, prices}, this.prepareProductData(attributes)));
         }
 
         return products;
+    };
+
+    private prepareProductData = (attributes: Attributes) => {
+        for (const a of attributes) {
+            delete attributes[a.name];
+            attributes[a.name.replace(/^data-product-/, "")] = a.value;
+        }
+
+        return attributes;
     };
 
     private async getProductPrices(p: ElementHandle) {

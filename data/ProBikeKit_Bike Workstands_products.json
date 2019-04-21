@@ -1,13 +1,26 @@
 [
   {
-    "data-product-title": "Park Tool HBH-2 Handlebar Holder",
-    "data-product-id": "10772187",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772187",
-    "data-product-brand": "Park Tool",
-    "data-product-price": "A$28.99",
-    "data-product-position": "1",
+    "name": "Park Tool PCS-9 Home Mechanic Repair Stand",
+    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/park-tool-pcs-9-home-mechanic-repair-stand/10772207.html",
+    "images": [
+      {
+        "description": "Park Tool PCS-9 Home Mechanic Repair Stand",
+        "src": "https://s3.thcdn.com/productimg/0/300/300/07/10772207-1363093550-976389.jpg"
+      }
+    ],
+    "prices": {
+      "rrp": "A$232.99"
+    },
+    "title": "Park Tool PCS-9 Home Mechanic Repair Stand",
+    "id": "10772207",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772207",
+    "brand": "Park Tool",
+    "price": "A$232.99",
+    "position": "1"
+  },
+  {
     "name": "Park Tool HBH-2 Handlebar Holder",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/park-tool-hbh-2-handlebar-holder/10772187.html",
     "images": [
@@ -20,38 +33,17 @@
       "RRP": "A$38.99",
       "rrp": "A$28.99",
       "Save:": "A$10.00"
-    }
+    },
+    "title": "Park Tool HBH-2 Handlebar Holder",
+    "id": "10772187",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772187",
+    "brand": "Park Tool",
+    "price": "A$28.99",
+    "position": "2"
   },
   {
-    "data-product-title": "Park Tool PCS-9 Home Mechanic Repair Stand",
-    "data-product-id": "10772207",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772207",
-    "data-product-brand": "Park Tool",
-    "data-product-price": "A$232.99",
-    "data-product-position": "2",
-    "name": "Park Tool PCS-9 Home Mechanic Repair Stand",
-    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/park-tool-pcs-9-home-mechanic-repair-stand/10772207.html",
-    "images": [
-      {
-        "description": "Park Tool PCS-9 Home Mechanic Repair Stand",
-        "src": "https://s3.thcdn.com/productimg/0/300/300/07/10772207-1363093550-976389.jpg"
-      }
-    ],
-    "prices": {
-      "rrp": "A$232.99"
-    }
-  },
-  {
-    "data-product-title": "Buzz Rack Eco Work Stand",
-    "data-product-id": "11978876",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11978876",
-    "data-product-brand": "Buzz Rack",
-    "data-product-price": "A$142.49",
-    "data-product-position": "3",
     "name": "Buzz Rack Eco Work Stand",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance/buzz-rack-eco-work-stand/11978876.html",
     "images": [
@@ -62,17 +54,17 @@
     ],
     "prices": {
       "rrp": "A$142.49"
-    }
+    },
+    "title": "Buzz Rack Eco Work Stand",
+    "id": "11978876",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11978876",
+    "brand": "Buzz Rack",
+    "price": "A$142.49",
+    "position": "3"
   },
   {
-    "data-product-title": "Buzz Rack Wall Work Stand",
-    "data-product-id": "11978875",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11978875",
-    "data-product-brand": "Buzz Rack",
-    "data-product-price": "A$67.99",
-    "data-product-position": "4",
     "name": "Buzz Rack Wall Work Stand",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance/buzz-rack-wall-work-stand/11978875.html",
     "images": [
@@ -85,6 +77,14 @@
       "RRP": "A$97.49",
       "rrp": "A$67.99",
       "Save:": "A$29.50"
-    }
+    },
+    "title": "Buzz Rack Wall Work Stand",
+    "id": "11978875",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11978875",
+    "brand": "Buzz Rack",
+    "price": "A$67.99",
+    "position": "4"
   }
 ]

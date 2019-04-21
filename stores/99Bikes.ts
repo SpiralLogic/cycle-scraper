@@ -1,6 +1,8 @@
 import {ProductPage, Products} from "../ProductInterfaces";
 import {Site} from "../Site";
 import {ElementHandle} from "puppeteer";
+import {Attributes} from "../Page";
+
 export class Bikes99 extends Site {
     readonly name: string = "99Bikes";
     protected nextPageSelector: string = ".pages-item-next a";
@@ -13,17 +15,20 @@ export class Bikes99 extends Site {
             const url = await this.page.getPropertyValue(p, "a", "href");
             const images = await this.page.getImageUrls(p);
             const prices = await this.getProductPrices(p);
-            const productData = await this.page.getAllAttributes(p, ".product-item-info a", (a) => a.name.startsWith("data-"));
+            const attributes = await this.page.getAllAttributes(p, ".product-item-info a", (a) => a.name.startsWith("data-"));
 
-            for (const a of productData) {
-                productData[a.name.replace(/^data-/, "")] = a.value;
-                delete productData[a.name];
-            }
+            products.push(Object.assign({name: "", url, images, prices}, this.prepareProductData(attributes)));
+        }
+        return products;
+    };
 
-            products.push(Object.assign({name: "", url, images, prices}, productData));
+    private prepareProductData = (attributes: Attributes) => {
+        for (const a of attributes) {
+            delete attributes[a.name];
+            attributes[a.name.replace(/^data-/, "")] = a.value;
         }
 
-        return products;
+        return attributes;
     };
 
     private async getProductPrices(p: ElementHandle) {

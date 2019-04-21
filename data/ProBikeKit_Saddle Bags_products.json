@@ -1,13 +1,5 @@
 [
   {
-    "data-product-title": "Scicon Carbon Masters Elan 210 Carbonium Saddle Bag",
-    "data-product-id": "10783952",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783952",
-    "data-product-brand": "Scicon",
-    "data-product-price": "A$22.99",
-    "data-product-position": "1",
     "name": "Scicon Carbon Masters Elan 210 Carbonium Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/scicon-carbon-masters-elan-210-carbonium-saddle-bag/10783952.html",
     "images": [
@@ -19,17 +11,17 @@
     "prices": {
       "from": "A$22.99",
       "Save up to:": "A$25.50"
-    }
+    },
+    "title": "Scicon Carbon Masters Elan 210 Carbonium Saddle Bag",
+    "id": "10783952",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783952",
+    "brand": "Scicon",
+    "price": "A$22.99",
+    "position": "1"
   },
   {
-    "data-product-title": "Topeak Back Loader Bag - 10L",
-    "data-product-id": "11416420",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11416420",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$74.49",
-    "data-product-position": "2",
     "name": "Topeak Back Loader Bag - 10L",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-back-loader-bag-10l/11416420.html",
     "images": [
@@ -42,17 +34,17 @@
       "RRP": "A$126.49",
       "rrp": "A$74.49",
       "Save:": "A$52.00"
-    }
+    },
+    "title": "Topeak Back Loader Bag - 10L",
+    "id": "11416420",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11416420",
+    "brand": "Topeak",
+    "price": "A$74.49",
+    "position": "2"
   },
   {
-    "data-product-title": "Silca Seat Roll Premio Saddle Bag",
-    "data-product-id": "11749233",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11749233",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$63.99",
-    "data-product-position": "3",
     "name": "Silca Seat Roll Premio Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-seat-roll-premio-saddle-bag/11749233.html",
     "images": [
@@ -65,17 +57,17 @@
       "RRP": "A$93.49",
       "rrp": "A$63.99",
       "Save:": "A$29.50"
-    }
+    },
+    "title": "Silca Seat Roll Premio Saddle Bag",
+    "id": "11749233",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11749233",
+    "brand": "Silca",
+    "price": "A$63.99",
+    "position": "3"
   },
   {
-    "data-product-title": "Profile Design ATTK IC Storage Case",
-    "data-product-id": "11674677",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11674677",
-    "data-product-brand": "Profile Design",
-    "data-product-price": "A$42.99",
-    "data-product-position": "4",
     "name": "Profile Design ATTK IC Storage Case",
     "url": "https://www.probikekit.com.au/cycling-accessories/profile-design-attk-ic-storage-case/11674677.html",
     "images": [
@@ -88,17 +80,17 @@
       "RRP": "A$58.49",
       "rrp": "A$42.99",
       "Save:": "A$15.50"
-    }
+    },
+    "title": "Profile Design ATTK IC Storage Case",
+    "id": "11674677",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11674677",
+    "brand": "Profile Design",
+    "price": "A$42.99",
+    "position": "4"
   },
   {
-    "data-product-title": "Topeak Fuel Tank - Large",
-    "data-product-id": "11365977",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365977",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$43.99",
-    "data-product-position": "5",
     "name": "Topeak Fuel Tank - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-fuel-tank-large/11365977.html",
     "images": [
@@ -111,17 +103,17 @@
       "RRP": "A$71.99",
       "rrp": "A$43.99",
       "Save:": "A$28.00"
-    }
+    },
+    "title": "Topeak Fuel Tank - Large",
+    "id": "11365977",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365977",
+    "brand": "Topeak",
+    "price": "A$43.99",
+    "position": "5"
   },
   {
-    "data-product-title": "Topeak Back Loader Bag - 6L",
-    "data-product-id": "11416421",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11416421",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$59.99",
-    "data-product-position": "6",
     "name": "Topeak Back Loader Bag - 6L",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-back-loader-bag-6l/11416421.html",
     "images": [
@@ -134,17 +126,17 @@
       "RRP": "A$106.99",
       "rrp": "A$59.99",
       "Save:": "A$47.00"
-    }
+    },
+    "title": "Topeak Back Loader Bag - 6L",
+    "id": "11416421",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11416421",
+    "brand": "Topeak",
+    "price": "A$59.99",
+    "position": "6"
   },
   {
-    "data-product-title": "Altura NV Road Saddle Bag - Black - Large",
-    "data-product-id": "11709790",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11709790",
-    "data-product-brand": "Altura",
-    "data-product-price": "A$22.49",
-    "data-product-position": "7",
     "name": "Altura NV Road Saddle Bag - Black - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories/altura-nv-road-saddle-bag-black-large/11709790.html",
     "images": [
@@ -157,17 +149,17 @@
       "RRP": "A$38.99",
       "rrp": "A$22.49",
       "Save:": "A$16.50"
-    }
+    },
+    "title": "Altura NV Road Saddle Bag - Black - Large",
+    "id": "11709790",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11709790",
+    "brand": "Altura",
+    "price": "A$22.49",
+    "position": "7"
   },
   {
-    "data-product-title": "Topeak Top Loader Top Tube Bag - 0.75L",
-    "data-product-id": "11416425",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11416425",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$34.99",
-    "data-product-position": "8",
     "name": "Topeak Top Loader Top Tube Bag - 0.75L",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-top-loader-top-tube-bag-0.75l/11416425.html",
     "images": [
@@ -180,17 +172,17 @@
       "RRP": "A$54.49",
       "rrp": "A$34.99",
       "Save:": "A$19.50"
-    }
+    },
+    "title": "Topeak Top Loader Top Tube Bag - 0.75L",
+    "id": "11416425",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11416425",
+    "brand": "Topeak",
+    "price": "A$34.99",
+    "position": "8"
   },
   {
-    "data-product-title": "Lezyne Caddy QR Mount",
-    "data-product-id": "11631033",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631033",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$10.99",
-    "data-product-position": "9",
     "name": "Lezyne Caddy QR Mount",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-caddy-qr-mount/11631033.html",
     "images": [
@@ -203,17 +195,17 @@
       "RRP": "A$13.99",
       "rrp": "A$10.99",
       "Save:": "A$3.00"
-    }
+    },
+    "title": "Lezyne Caddy QR Mount",
+    "id": "11631033",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631033",
+    "brand": "Lezyne",
+    "price": "A$10.99",
+    "position": "9"
   },
   {
-    "data-product-title": "Topeak Wedge Aero QR Saddle Bag - Large",
-    "data-product-id": "11075943",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075943",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$31.99",
-    "data-product-position": "10",
     "name": "Topeak Wedge Aero QR Saddle Bag - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-qr-saddle-bag-large/11075943.html",
     "images": [
@@ -226,17 +218,17 @@
       "RRP": "A$50.49",
       "rrp": "A$31.99",
       "Save:": "A$18.50"
-    }
+    },
+    "title": "Topeak Wedge Aero QR Saddle Bag - Large",
+    "id": "11075943",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075943",
+    "brand": "Topeak",
+    "price": "A$31.99",
+    "position": "10"
   },
   {
-    "data-product-title": "Lezyne Caddy Extra Large",
-    "data-product-id": "11631024",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631024",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$71.49",
-    "data-product-position": "11",
     "name": "Lezyne Caddy Extra Large",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-caddy-extra-large/11631024.html",
     "images": [
@@ -249,17 +241,17 @@
       "RRP": "A$126.49",
       "rrp": "A$71.49",
       "Save:": "A$55.00"
-    }
+    },
+    "title": "Lezyne Caddy Extra Large",
+    "id": "11631024",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631024",
+    "brand": "Lezyne",
+    "price": "A$71.49",
+    "position": "11"
   },
   {
-    "data-product-title": "Topeak Tri-Bag with Rain Cover - Large",
-    "data-product-id": "11365957",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365957",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$19.99",
-    "data-product-position": "12",
     "name": "Topeak Tri-Bag with Rain Cover - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-tri-bag-with-rain-cover-large/11365957.html",
     "images": [
@@ -272,17 +264,17 @@
       "RRP": "A$29.49",
       "rrp": "A$19.99",
       "Save:": "A$9.50"
-    }
+    },
+    "title": "Topeak Tri-Bag with Rain Cover - Large",
+    "id": "11365957",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365957",
+    "brand": "Topeak",
+    "price": "A$19.99",
+    "position": "12"
   },
   {
-    "data-product-title": "Lezyne Caddy Sack",
-    "data-product-id": "11631016",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11631016",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$13.99",
-    "data-product-position": "13",
     "name": "Lezyne Caddy Sack",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-caddy-sack/11631016.html",
     "images": [
@@ -295,17 +287,17 @@
       "RRP": "A$19.49",
       "rrp": "A$13.99",
       "Save:": "A$5.50"
-    }
+    },
+    "title": "Lezyne Caddy Sack",
+    "id": "11631016",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11631016",
+    "brand": "Lezyne",
+    "price": "A$13.99",
+    "position": "13"
   },
   {
-    "data-product-title": "Profile Design Aero E-Pack - Standard",
-    "data-product-id": "11674678",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11674678",
-    "data-product-brand": "Profile Design",
-    "data-product-price": "A$33.99",
-    "data-product-position": "14",
     "name": "Profile Design Aero E-Pack - Standard",
     "url": "https://www.probikekit.com.au/cycling-accessories/profile-design-aero-e-pack-standard/11674678.html",
     "images": [
@@ -318,17 +310,17 @@
       "RRP": "A$42.99",
       "rrp": "A$33.99",
       "Save:": "A$9.00"
-    }
+    },
+    "title": "Profile Design Aero E-Pack - Standard",
+    "id": "11674678",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11674678",
+    "brand": "Profile Design",
+    "price": "A$33.99",
+    "position": "14"
   },
   {
-    "data-product-title": "Topeak Wedge Aero QR Saddle Bag - Small",
-    "data-product-id": "11075946",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075946",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$23.49",
-    "data-product-position": "15",
     "name": "Topeak Wedge Aero QR Saddle Bag - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-qr-saddle-bag-small/11075946.html",
     "images": [
@@ -341,17 +333,17 @@
       "RRP": "A$42.99",
       "rrp": "A$23.49",
       "Save:": "A$19.50"
-    }
+    },
+    "title": "Topeak Wedge Aero QR Saddle Bag - Small",
+    "id": "11075946",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075946",
+    "brand": "Topeak",
+    "price": "A$23.49",
+    "position": "15"
   },
   {
-    "data-product-title": "Lezyne Loaded Caddy Medium",
-    "data-product-id": "11631026",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631026",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$52.99",
-    "data-product-position": "16",
     "name": "Lezyne Loaded Caddy Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-loaded-caddy-medium/11631026.html",
     "images": [
@@ -364,17 +356,17 @@
       "RRP": "A$77.99",
       "rrp": "A$52.99",
       "Save:": "A$25.00"
-    }
+    },
+    "title": "Lezyne Loaded Caddy Medium",
+    "id": "11631026",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631026",
+    "brand": "Lezyne",
+    "price": "A$52.99",
+    "position": "16"
   },
   {
-    "data-product-title": "Topeak Drybag Handlebar Bag",
-    "data-product-id": "11365980",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365980",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$76.49",
-    "data-product-position": "17",
     "name": "Topeak Drybag Handlebar Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-drybag-handlebar-bag/11365980.html",
     "images": [
@@ -387,17 +379,17 @@
       "RRP": "A$135.99",
       "rrp": "A$76.49",
       "Save:": "A$59.50"
-    }
+    },
+    "title": "Topeak Drybag Handlebar Bag",
+    "id": "11365980",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365980",
+    "brand": "Topeak",
+    "price": "A$76.49",
+    "position": "17"
   },
   {
-    "data-product-title": "Topeak Wedge Sidekick Saddle Bag - Small",
-    "data-product-id": "11365961",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365961",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$32.99",
-    "data-product-position": "18",
     "name": "Topeak Wedge Sidekick Saddle Bag - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-wedge-sidekick-saddle-bag-small/11365961.html",
     "images": [
@@ -410,17 +402,17 @@
       "RRP": "A$52.49",
       "rrp": "A$32.99",
       "Save:": "A$19.50"
-    }
+    },
+    "title": "Topeak Wedge Sidekick Saddle Bag - Small",
+    "id": "11365961",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365961",
+    "brand": "Topeak",
+    "price": "A$32.99",
+    "position": "18"
   },
   {
-    "data-product-title": "Scicon Compact 430 Saddle Bag",
-    "data-product-id": "10783509",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783509",
-    "data-product-brand": "Scicon",
-    "data-product-price": "A$43.99",
-    "data-product-position": "19",
     "name": "Scicon Compact 430 Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/scicon-compact-430-saddle-bag/10783509.html",
     "images": [
@@ -432,17 +424,17 @@
     "prices": {
       "from": "A$43.99",
       "Save up to:": "A$39.50"
-    }
+    },
+    "title": "Scicon Compact 430 Saddle Bag",
+    "id": "10783509",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783509",
+    "brand": "Scicon",
+    "price": "A$43.99",
+    "position": "19"
   },
   {
-    "data-product-title": "Topeak Wedge Aero SaddleBag With Strap - Small",
-    "data-product-id": "10772982",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772982",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$20.99",
-    "data-product-position": "20",
     "name": "Topeak Wedge Aero SaddleBag With Strap - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-saddlebag-with-strap-small/10772982.html",
     "images": [
@@ -455,17 +447,17 @@
       "RRP": "A$25.49",
       "rrp": "A$20.99",
       "Save:": "A$4.50"
-    }
+    },
+    "title": "Topeak Wedge Aero SaddleBag With Strap - Small",
+    "id": "10772982",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772982",
+    "brand": "Topeak",
+    "price": "A$20.99",
+    "position": "20"
   },
   {
-    "data-product-title": "Silca Seat Capsule Premio Seat Bag",
-    "data-product-id": "11749235",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11749235",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$61.49",
-    "data-product-position": "21",
     "name": "Silca Seat Capsule Premio Seat Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-seat-capsule-premio-seat-bag/11749235.html",
     "images": [
@@ -478,17 +470,17 @@
       "RRP": "A$89.49",
       "rrp": "A$61.49",
       "Save:": "A$28.00"
-    }
+    },
+    "title": "Silca Seat Capsule Premio Seat Bag",
+    "id": "11749235",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11749235",
+    "brand": "Silca",
+    "price": "A$61.49",
+    "position": "21"
   },
   {
-    "data-product-title": "Topeak Wedge Drybag QR Saddlebag - Large",
-    "data-product-id": "11075951",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075951",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$40.49",
-    "data-product-position": "22",
     "name": "Topeak Wedge Drybag QR Saddlebag - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-drybag-qr-saddlebag-large/11075951.html",
     "images": [
@@ -501,17 +493,17 @@
       "RRP": "A$62.49",
       "rrp": "A$40.49",
       "Save:": "A$22.00"
-    }
+    },
+    "title": "Topeak Wedge Drybag QR Saddlebag - Large",
+    "id": "11075951",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075951",
+    "brand": "Topeak",
+    "price": "A$40.49",
+    "position": "22"
   },
   {
-    "data-product-title": "Topeak Drybag Tri Top Tube Bag",
-    "data-product-id": "11075918",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075918",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$28.99",
-    "data-product-position": "23",
     "name": "Topeak Drybag Tri Top Tube Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-drybag-tri-top-tube-bag/11075918.html",
     "images": [
@@ -524,17 +516,17 @@
       "RRP": "A$42.99",
       "rrp": "A$28.99",
       "Save:": "A$14.00"
-    }
+    },
+    "title": "Topeak Drybag Tri Top Tube Bag",
+    "id": "11075918",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075918",
+    "brand": "Topeak",
+    "price": "A$28.99",
+    "position": "23"
   },
   {
-    "data-product-title": "Profile Design Tank Storage Case",
-    "data-product-id": "11674676",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11674676",
-    "data-product-brand": "Profile Design",
-    "data-product-price": "A$57.99",
-    "data-product-position": "24",
     "name": "Profile Design Tank Storage Case",
     "url": "https://www.probikekit.com.au/profile-design-tank-storage-case/11674676.html",
     "images": [
@@ -547,17 +539,17 @@
       "RRP": "A$77.99",
       "rrp": "A$57.99",
       "Save:": "A$20.00"
-    }
+    },
+    "title": "Profile Design Tank Storage Case",
+    "id": "11674676",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11674676",
+    "brand": "Profile Design",
+    "price": "A$57.99",
+    "position": "24"
   },
   {
-    "data-product-title": "Lezyne Pod Caddy QR Medium",
-    "data-product-id": "11631032",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631032",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$33.99",
-    "data-product-position": "25",
     "name": "Lezyne Pod Caddy QR Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-pod-caddy-qr-medium/11631032.html",
     "images": [
@@ -570,17 +562,17 @@
       "RRP": "A$54.49",
       "rrp": "A$33.99",
       "Save:": "A$20.50"
-    }
+    },
+    "title": "Lezyne Pod Caddy QR Medium",
+    "id": "11631032",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631032",
+    "brand": "Lezyne",
+    "price": "A$33.99",
+    "position": "25"
   },
   {
-    "data-product-title": "Lezyne M Caddy QR - Black",
-    "data-product-id": "11631025",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631025",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$32.49",
-    "data-product-position": "26",
     "name": "Lezyne M Caddy QR - Black",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-m-caddy-qr-black/11631025.html",
     "images": [
@@ -593,17 +585,17 @@
       "RRP": "A$48.49",
       "rrp": "A$32.49",
       "Save:": "A$16.00"
-    }
+    },
+    "title": "Lezyne M Caddy QR - Black",
+    "id": "11631025",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631025",
+    "brand": "Lezyne",
+    "price": "A$32.49",
+    "position": "26"
   },
   {
-    "data-product-title": "Topeak Propack Saddlebag - Small",
-    "data-product-id": "11075936",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075936",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$25.99",
-    "data-product-position": "27",
     "name": "Topeak Propack Saddlebag - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-propack-saddlebag-small/11075936.html",
     "images": [
@@ -616,17 +608,17 @@
       "RRP": "A$32.99",
       "rrp": "A$25.99",
       "Save:": "A$7.00"
-    }
+    },
+    "title": "Topeak Propack Saddlebag - Small",
+    "id": "11075936",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075936",
+    "brand": "Topeak",
+    "price": "A$25.99",
+    "position": "27"
   },
   {
-    "data-product-title": "Topeak Wedge Aero Saddlebag With Strap - Medium",
-    "data-product-id": "11075948",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075948",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$22.49",
-    "data-product-position": "28",
     "name": "Topeak Wedge Aero Saddlebag With Strap - Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-saddlebag-with-strap-medium/11075948.html",
     "images": [
@@ -639,17 +631,17 @@
       "RRP": "A$29.49",
       "rrp": "A$22.49",
       "Save:": "A$7.00"
-    }
+    },
+    "title": "Topeak Wedge Aero Saddlebag With Strap - Medium",
+    "id": "11075948",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075948",
+    "brand": "Topeak",
+    "price": "A$22.49",
+    "position": "28"
   },
   {
-    "data-product-title": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
-    "data-product-id": "11211201",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11211201",
-    "data-product-brand": "Effetto Mariposa",
-    "data-product-price": "A$9.99",
-    "data-product-position": "29",
     "name": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/effetto-mariposa-portatutto-tools-and-tube-storage-bottle/11211201.html",
     "images": [
@@ -662,17 +654,17 @@
       "RRP": "A$11.99",
       "rrp": "A$9.99",
       "Save:": "A$2.00"
-    }
+    },
+    "title": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
+    "id": "11211201",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11211201",
+    "brand": "Effetto Mariposa",
+    "price": "A$9.99",
+    "position": "29"
   },
   {
-    "data-product-title": "Topeak Sidekick Wedge Saddlebag - Medium",
-    "data-product-id": "10773553",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10773553",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$37.99",
-    "data-product-position": "30",
     "name": "Topeak Sidekick Wedge Saddlebag - Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-sidekick-wedge-saddlebag-medium/10773553.html",
     "images": [
@@ -685,109 +677,40 @@
       "RRP": "A$54.49",
       "rrp": "A$37.99",
       "Save:": "A$16.50"
-    }
+    },
+    "title": "Topeak Sidekick Wedge Saddlebag - Medium",
+    "id": "10773553",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10773553",
+    "brand": "Topeak",
+    "price": "A$37.99",
+    "position": "30"
   },
   {
-    "data-product-title": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
-    "data-product-id": "11211201",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11211201",
-    "data-product-brand": "Effetto Mariposa",
-    "data-product-price": "A$9.99",
-    "data-product-position": "1",
-    "name": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
-    "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/effetto-mariposa-portatutto-tools-and-tube-storage-bottle/11211201.html",
+    "name": "Lezyne M Caddy C02 Kit",
+    "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-m-caddy-c02-kit/11631029.html",
     "images": [
       {
-        "description": "Effetto Mariposa Portatutto Tools and Tube Storage Bottle",
-        "src": "https://s3.thcdn.com/productimg/300/300/11211201-1254350531413472.jpg"
+        "description": "Lezyne M Caddy C02 Kit",
+        "src": "https://s3.thcdn.com/productimg/300/300/11631029-1214538011638126.jpg"
       }
     ],
     "prices": {
-      "RRP": "A$11.99",
-      "rrp": "A$9.99",
-      "Save:": "A$2.00"
-    }
+      "RRP": "A$87.49",
+      "rrp": "A$57.99",
+      "Save:": "A$29.50"
+    },
+    "title": "Lezyne M Caddy C02 Kit",
+    "id": "11631029",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631029",
+    "brand": "Lezyne",
+    "price": "A$57.99",
+    "position": "1"
   },
   {
-    "data-product-title": "Topeak Wedge Aero Saddlebag With Strap - Large",
-    "data-product-id": "11075947",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075947",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$23.99",
-    "data-product-position": "2",
-    "name": "Topeak Wedge Aero Saddlebag With Strap - Large",
-    "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-saddlebag-with-strap-large/11075947.html",
-    "images": [
-      {
-        "description": "Topeak Wedge Aero Saddlebag With Strap - Large",
-        "src": "https://s3.thcdn.com/productimg/0/300/300/47/11075947-1424176663-297476.jpg"
-      }
-    ],
-    "prices": {
-      "RRP": "A$32.99",
-      "rrp": "A$23.99",
-      "Save:": "A$9.00"
-    }
-  },
-  {
-    "data-product-title": "Topeak Tri-Bag - All Weather",
-    "data-product-id": "10773069",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10773069",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$17.49",
-    "data-product-position": "3",
-    "name": "Topeak Tri-Bag - All Weather",
-    "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-tri-bag-all-weather/10773069.html",
-    "images": [
-      {
-        "description": "Topeak Tri-Bag - All Weather",
-        "src": "https://s3.thcdn.com/productimg/0/300/300/69/10773069-1363089212-659991.jpg"
-      }
-    ],
-    "prices": {
-      "RRP": "A$32.99",
-      "rrp": "A$17.49",
-      "Save:": "A$15.50"
-    }
-  },
-  {
-    "data-product-title": "Profile Design Aero E-Pack - Compact",
-    "data-product-id": "11674679",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11674679",
-    "data-product-brand": "Profile Design",
-    "data-product-price": "A$32.99",
-    "data-product-position": "4",
-    "name": "Profile Design Aero E-Pack - Compact",
-    "url": "https://www.probikekit.com.au/cycling-accessories/profile-design-aero-e-pack-compact/11674679.html",
-    "images": [
-      {
-        "description": "Profile Design Aero E-Pack - Compact",
-        "src": "https://s1.thcdn.com/productimg/300/300/11674679-1144550460284055.jpg"
-      }
-    ],
-    "prices": {
-      "RRP": "A$38.99",
-      "rrp": "A$32.99",
-      "Save:": "A$6.00"
-    }
-  },
-  {
-    "data-product-title": "Scicon Vortex 480 Saddle Bag",
-    "data-product-id": "10783513",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783513",
-    "data-product-brand": "Scicon",
-    "data-product-price": "A$40.49",
-    "data-product-position": "5",
     "name": "Scicon Vortex 480 Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/scicon-vortex-480-saddle-bag/10783513.html",
     "images": [
@@ -799,17 +722,17 @@
     "prices": {
       "from": "A$40.49",
       "Save up to:": "A$43.00"
-    }
+    },
+    "title": "Scicon Vortex 480 Saddle Bag",
+    "id": "10783513",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783513",
+    "brand": "Scicon",
+    "price": "A$40.49",
+    "position": "2"
   },
   {
-    "data-product-title": "Deuter Bike Bag Bottle Saddlebag - Black",
-    "data-product-id": "11834139",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11834139",
-    "data-product-brand": "Deuter",
-    "data-product-price": "A$37.99",
-    "data-product-position": "6",
     "name": "Deuter Bike Bag Bottle Saddlebag - Black",
     "url": "https://www.probikekit.com.au/cycling-accessories/deuter-bike-bag-bottle-saddlebag-black/11834139.html",
     "images": [
@@ -822,17 +745,86 @@
       "RRP": "A$50.49",
       "rrp": "A$37.99",
       "Save:": "A$12.50"
-    }
+    },
+    "title": "Deuter Bike Bag Bottle Saddlebag - Black",
+    "id": "11834139",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11834139",
+    "brand": "Deuter",
+    "price": "A$37.99",
+    "position": "3"
   },
   {
-    "data-product-title": "Topeak Sidekick Survival Tool Wedge Saddlebag",
-    "data-product-id": "11365962",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365962",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$58.99",
-    "data-product-position": "7",
+    "name": "Topeak Wedge Aero Saddlebag With Strap - Large",
+    "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-saddlebag-with-strap-large/11075947.html",
+    "images": [
+      {
+        "description": "Topeak Wedge Aero Saddlebag With Strap - Large",
+        "src": "https://s3.thcdn.com/productimg/0/300/300/47/11075947-1424176663-297476.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$32.99",
+      "rrp": "A$23.99",
+      "Save:": "A$9.00"
+    },
+    "title": "Topeak Wedge Aero Saddlebag With Strap - Large",
+    "id": "11075947",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075947",
+    "brand": "Topeak",
+    "price": "A$23.99",
+    "position": "4"
+  },
+  {
+    "name": "Profile Design Aero E-Pack - Compact",
+    "url": "https://www.probikekit.com.au/cycling-accessories/profile-design-aero-e-pack-compact/11674679.html",
+    "images": [
+      {
+        "description": "Profile Design Aero E-Pack - Compact",
+        "src": "https://s1.thcdn.com/productimg/300/300/11674679-1144550460284055.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$38.99",
+      "rrp": "A$32.99",
+      "Save:": "A$6.00"
+    },
+    "title": "Profile Design Aero E-Pack - Compact",
+    "id": "11674679",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11674679",
+    "brand": "Profile Design",
+    "price": "A$32.99",
+    "position": "5"
+  },
+  {
+    "name": "Topeak Tri-Bag - All Weather",
+    "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-tri-bag-all-weather/10773069.html",
+    "images": [
+      {
+        "description": "Topeak Tri-Bag - All Weather",
+        "src": "https://s3.thcdn.com/productimg/0/300/300/69/10773069-1363089212-659991.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$32.99",
+      "rrp": "A$17.49",
+      "Save:": "A$15.50"
+    },
+    "title": "Topeak Tri-Bag - All Weather",
+    "id": "10773069",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10773069",
+    "brand": "Topeak",
+    "price": "A$17.49",
+    "position": "6"
+  },
+  {
     "name": "Topeak Sidekick Survival Tool Wedge Saddlebag",
     "url": "https://www.probikekit.com.au/cycling-accessories/topeak-sidekick-survival-tool-wedge-saddlebag/11365962.html",
     "images": [
@@ -845,17 +837,17 @@
       "RRP": "A$95.49",
       "rrp": "A$58.99",
       "Save:": "A$36.50"
-    }
+    },
+    "title": "Topeak Sidekick Survival Tool Wedge Saddlebag",
+    "id": "11365962",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365962",
+    "brand": "Topeak",
+    "price": "A$58.99",
+    "position": "7"
   },
   {
-    "data-product-title": "Topeak Flash Stand - Standard",
-    "data-product-id": "10772089",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772089",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$37.99",
-    "data-product-position": "8",
     "name": "Topeak Flash Stand - Standard",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/topeak-flash-stand-standard/10772089.html",
     "images": [
@@ -868,40 +860,17 @@
       "RRP": "A$56.49",
       "rrp": "A$37.99",
       "Save:": "A$18.50"
-    }
+    },
+    "title": "Topeak Flash Stand - Standard",
+    "id": "10772089",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772089",
+    "brand": "Topeak",
+    "price": "A$37.99",
+    "position": "8"
   },
   {
-    "data-product-title": "Deuter Bike Bag 1 Saddlebag - Black",
-    "data-product-id": "11834140",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11834140",
-    "data-product-brand": "Deuter",
-    "data-product-price": "A$18.49",
-    "data-product-position": "9",
-    "name": "Deuter Bike Bag 1 Saddlebag - Black",
-    "url": "https://www.probikekit.com.au/cycling-accessories/deuter-bike-bag-1-saddlebag-black/11834140.html",
-    "images": [
-      {
-        "description": "Deuter Bike Bag 1 Saddlebag - Black",
-        "src": "https://s3.thcdn.com/productimg/300/300/11834140-1454605333457500.jpg"
-      }
-    ],
-    "prices": {
-      "RRP": "A$21.49",
-      "rrp": "A$18.49",
-      "Save:": "A$3.00"
-    }
-  },
-  {
-    "data-product-title": "Lezyne Loaded Caddy Small",
-    "data-product-id": "11631027",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631027",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$36.49",
-    "data-product-position": "10",
     "name": "Lezyne Loaded Caddy Small",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-loaded-caddy-small/11631027.html",
     "images": [
@@ -914,17 +883,40 @@
       "RRP": "A$58.49",
       "rrp": "A$36.49",
       "Save:": "A$22.00"
-    }
+    },
+    "title": "Lezyne Loaded Caddy Small",
+    "id": "11631027",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631027",
+    "brand": "Lezyne",
+    "price": "A$36.49",
+    "position": "9"
   },
   {
-    "data-product-title": "Birzman Roadster 1 Reflective Seat Pack - Small",
-    "data-product-id": "11035229",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11035229",
-    "data-product-brand": "Birzman",
-    "data-product-price": "A$21.49",
-    "data-product-position": "11",
+    "name": "Deuter Bike Bag 1 Saddlebag - Black",
+    "url": "https://www.probikekit.com.au/cycling-accessories/deuter-bike-bag-1-saddlebag-black/11834140.html",
+    "images": [
+      {
+        "description": "Deuter Bike Bag 1 Saddlebag - Black",
+        "src": "https://s3.thcdn.com/productimg/300/300/11834140-1454605333457500.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$21.49",
+      "rrp": "A$18.49",
+      "Save:": "A$3.00"
+    },
+    "title": "Deuter Bike Bag 1 Saddlebag - Black",
+    "id": "11834140",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11834140",
+    "brand": "Deuter",
+    "price": "A$18.49",
+    "position": "10"
+  },
+  {
     "name": "Birzman Roadster 1 Reflective Seat Pack - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories/birzman-roadster-1-reflective-seat-pack-small/11035229.html",
     "images": [
@@ -937,17 +929,17 @@
       "RRP": "A$25.49",
       "rrp": "A$21.49",
       "Save:": "A$4.00"
-    }
+    },
+    "title": "Birzman Roadster 1 Reflective Seat Pack - Small",
+    "id": "11035229",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11035229",
+    "brand": "Birzman",
+    "price": "A$21.49",
+    "position": "11"
   },
   {
-    "data-product-title": "Fabric Contain Saddle Bag",
-    "data-product-id": "11984110",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11984110",
-    "data-product-brand": "Fabric",
-    "data-product-price": "A$36.49",
-    "data-product-position": "12",
     "name": "Fabric Contain Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/fabric-contain-saddle-bag/11984110.html",
     "images": [
@@ -960,17 +952,17 @@
       "RRP": "A$42.99",
       "rrp": "A$36.49",
       "Save:": "A$6.50"
-    }
+    },
+    "title": "Fabric Contain Saddle Bag",
+    "id": "11984110",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11984110",
+    "brand": "Fabric",
+    "price": "A$36.49",
+    "position": "12"
   },
   {
-    "data-product-title": "Guee B-Mount Saddle Bag",
-    "data-product-id": "11557690",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11557690",
-    "data-product-brand": "Guee",
-    "data-product-price": "A$32.99",
-    "data-product-position": "13",
     "name": "Guee B-Mount Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/guee-b-mount-saddle-bag/11557690.html",
     "images": [
@@ -983,17 +975,17 @@
       "RRP": "A$48.49",
       "rrp": "A$32.99",
       "Save:": "A$15.50"
-    }
+    },
+    "title": "Guee B-Mount Saddle Bag",
+    "id": "11557690",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11557690",
+    "brand": "Guee",
+    "price": "A$32.99",
+    "position": "13"
   },
   {
-    "data-product-title": "Birzman M-Snug Double Sided Seat Pack",
-    "data-product-id": "11035228",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11035228",
-    "data-product-brand": "Birzman",
-    "data-product-price": "A$34.99",
-    "data-product-position": "14",
     "name": "Birzman M-Snug Double Sided Seat Pack",
     "url": "https://www.probikekit.com.au/cycling-accessories/birzman-m-snug-double-sided-seat-pack/11035228.html",
     "images": [
@@ -1006,17 +998,17 @@
       "RRP": "A$52.49",
       "rrp": "A$34.99",
       "Save:": "A$17.50"
-    }
+    },
+    "title": "Birzman M-Snug Double Sided Seat Pack",
+    "id": "11035228",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11035228",
+    "brand": "Birzman",
+    "price": "A$34.99",
+    "position": "14"
   },
   {
-    "data-product-title": "Topeak Mondopack Hydro",
-    "data-product-id": "10874858",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10874858",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$47.99",
-    "data-product-position": "15",
     "name": "Topeak Mondopack Hydro",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-mondopack-hydro/10874858.html",
     "images": [
@@ -1029,17 +1021,17 @@
       "RRP": "A$77.99",
       "rrp": "A$47.99",
       "Save:": "A$30.00"
-    }
+    },
+    "title": "Topeak Mondopack Hydro",
+    "id": "10874858",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10874858",
+    "brand": "Topeak",
+    "price": "A$47.99",
+    "position": "15"
   },
   {
-    "data-product-title": "Topeak Wedge Aero QR Saddle Bag - Medium",
-    "data-product-id": "11075944",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075944",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$29.49",
-    "data-product-position": "16",
     "name": "Topeak Wedge Aero QR Saddle Bag - Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-qr-saddle-bag-medium/11075944.html",
     "images": [
@@ -1052,17 +1044,17 @@
       "RRP": "A$42.99",
       "rrp": "A$29.49",
       "Save:": "A$13.50"
-    }
+    },
+    "title": "Topeak Wedge Aero QR Saddle Bag - Medium",
+    "id": "11075944",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075944",
+    "brand": "Topeak",
+    "price": "A$29.49",
+    "position": "16"
   },
   {
-    "data-product-title": "Topeak Wedge Drybag Saddle Bag with Strap - Small",
-    "data-product-id": "11075956",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075956",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$32.99",
-    "data-product-position": "17",
     "name": "Topeak Wedge Drybag Saddle Bag with Strap - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-drybag-saddle-bag-with-strap-small/11075956.html",
     "images": [
@@ -1075,17 +1067,17 @@
       "RRP": "A$54.49",
       "rrp": "A$32.99",
       "Save:": "A$21.50"
-    }
+    },
+    "title": "Topeak Wedge Drybag Saddle Bag with Strap - Small",
+    "id": "11075956",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075956",
+    "brand": "Topeak",
+    "price": "A$32.99",
+    "position": "17"
   },
   {
-    "data-product-title": "Lezyne Smart Energy Caddy",
-    "data-product-id": "11631020",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631020",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$36.49",
-    "data-product-position": "18",
     "name": "Lezyne Smart Energy Caddy",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-smart-energy-caddy/11631020.html",
     "images": [
@@ -1098,17 +1090,17 @@
       "RRP": "A$58.49",
       "rrp": "A$36.49",
       "Save:": "A$22.00"
-    }
+    },
+    "title": "Lezyne Smart Energy Caddy",
+    "id": "11631020",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631020",
+    "brand": "Lezyne",
+    "price": "A$36.49",
+    "position": "18"
   },
   {
-    "data-product-title": "Silca Seat Roll Premio Loaded Saddle Bag",
-    "data-product-id": "11749234",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11749234",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$164.99",
-    "data-product-position": "19",
     "name": "Silca Seat Roll Premio Loaded Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-seat-roll-premio-loaded-saddle-bag/11749234.html",
     "images": [
@@ -1121,17 +1113,17 @@
       "RRP": "A$194.49",
       "rrp": "A$164.99",
       "Save:": "A$29.50"
-    }
+    },
+    "title": "Silca Seat Roll Premio Loaded Saddle Bag",
+    "id": "11749234",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11749234",
+    "brand": "Silca",
+    "price": "A$164.99",
+    "position": "19"
   },
   {
-    "data-product-title": "Lezyne Micro Caddy QR Small",
-    "data-product-id": "11631031",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631031",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$31.49",
-    "data-product-position": "20",
     "name": "Lezyne Micro Caddy QR Small",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-micro-caddy-qr-small/11631031.html",
     "images": [
@@ -1144,17 +1136,17 @@
       "RRP": "A$46.99",
       "rrp": "A$31.49",
       "Save:": "A$15.50"
-    }
+    },
+    "title": "Lezyne Micro Caddy QR Small",
+    "id": "11631031",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631031",
+    "brand": "Lezyne",
+    "price": "A$31.49",
+    "position": "20"
   },
   {
-    "data-product-title": "Silca Eolo Wallet - Loaded",
-    "data-product-id": "11749238",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11749238",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$140.49",
-    "data-product-position": "21",
     "name": "Silca Eolo Wallet - Loaded",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-eolo-wallet-loaded/11749238.html",
     "images": [
@@ -1167,17 +1159,17 @@
       "RRP": "A$164.99",
       "rrp": "A$140.49",
       "Save:": "A$24.50"
-    }
+    },
+    "title": "Silca Eolo Wallet - Loaded",
+    "id": "11749238",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11749238",
+    "brand": "Silca",
+    "price": "A$140.49",
+    "position": "21"
   },
   {
-    "data-product-title": "VEL Saddle Bag with Quick Clip",
-    "data-product-id": "11282221",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11282221",
-    "data-product-brand": "VEL",
-    "data-product-price": "A$25.49",
-    "data-product-position": "22",
     "name": "VEL Saddle Bag with Quick Clip",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/vel-saddle-bag-with-quick-clip/11282221.html",
     "images": [
@@ -1190,17 +1182,17 @@
       "RRP": "A$36.99",
       "rrp": "A$25.49",
       "Save:": "A$11.50"
-    }
+    },
+    "title": "VEL Saddle Bag with Quick Clip",
+    "id": "11282221",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11282221",
+    "brand": "VEL",
+    "price": "A$25.49",
+    "position": "22"
   },
   {
-    "data-product-title": "Topeak Wedge Drybag Saddle Bag with Strap - Medium",
-    "data-product-id": "11075955",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075955",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$36.49",
-    "data-product-position": "23",
     "name": "Topeak Wedge Drybag Saddle Bag with Strap - Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-drybag-saddle-bag-with-strap-medium/11075955.html",
     "images": [
@@ -1213,17 +1205,17 @@
       "RRP": "A$58.49",
       "rrp": "A$36.49",
       "Save:": "A$22.00"
-    }
+    },
+    "title": "Topeak Wedge Drybag Saddle Bag with Strap - Medium",
+    "id": "11075955",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075955",
+    "brand": "Topeak",
+    "price": "A$36.49",
+    "position": "23"
   },
   {
-    "data-product-title": "Scicon Tubag Bicycle Tool Bag",
-    "data-product-id": "10773832",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10773832",
-    "data-product-brand": "Scicon",
-    "data-product-price": "A$22.49",
-    "data-product-position": "24",
     "name": "Scicon Tubag Bicycle Tool Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/scicon-tubag-bicycle-tool-bag/10773832.html",
     "images": [
@@ -1236,17 +1228,17 @@
       "RRP": "A$42.99",
       "rrp": "A$22.49",
       "Save:": "A$20.50"
-    }
+    },
+    "title": "Scicon Tubag Bicycle Tool Bag",
+    "id": "10773832",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10773832",
+    "brand": "Scicon",
+    "price": "A$22.49",
+    "position": "24"
   },
   {
-    "data-product-title": "Silca Seat Roll Grande Americano",
-    "data-product-id": "11749232",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11749232",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$102.49",
-    "data-product-position": "25",
     "name": "Silca Seat Roll Grande Americano",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-seat-roll-grande-americano/11749232.html",
     "images": [
@@ -1259,17 +1251,17 @@
       "RRP": "A$120.49",
       "rrp": "A$102.49",
       "Save:": "A$18.00"
-    }
+    },
+    "title": "Silca Seat Roll Grande Americano",
+    "id": "11749232",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11749232",
+    "brand": "Silca",
+    "price": "A$102.49",
+    "position": "25"
   },
   {
-    "data-product-title": "VEL Saddle Bag",
-    "data-product-id": "11282220",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11282220",
-    "data-product-brand": "VEL",
-    "data-product-price": "A$24.99",
-    "data-product-position": "26",
     "name": "VEL Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/vel-saddle-bag/11282220.html",
     "images": [
@@ -1282,17 +1274,17 @@
       "RRP": "A$33.99",
       "rrp": "A$24.99",
       "Save:": "A$9.00"
-    }
+    },
+    "title": "VEL Saddle Bag",
+    "id": "11282220",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11282220",
+    "brand": "VEL",
+    "price": "A$24.99",
+    "position": "26"
   },
   {
-    "data-product-title": "Prologo U-Bag Medium (0.2L) - Black",
-    "data-product-id": "11257855",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11257855",
-    "data-product-brand": "Prologo",
-    "data-product-price": "A$40.49",
-    "data-product-position": "27",
     "name": "Prologo U-Bag Medium (0.2L) - Black",
     "url": "https://www.probikekit.com.au/cycling-accessories/prologo-u-bag-medium-0.2l-black/11257855.html",
     "images": [
@@ -1305,17 +1297,17 @@
       "RRP": "A$66.49",
       "rrp": "A$40.49",
       "Save:": "A$26.00"
-    }
+    },
+    "title": "Prologo U-Bag Medium (0.2L) - Black",
+    "id": "11257855",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11257855",
+    "brand": "Prologo",
+    "price": "A$40.49",
+    "position": "27"
   },
   {
-    "data-product-title": "Lezyne Micro Caddy QR Medium",
-    "data-product-id": "11631030",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631030",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$35.49",
-    "data-product-position": "28",
     "name": "Lezyne Micro Caddy QR Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-micro-caddy-qr-medium/11631030.html",
     "images": [
@@ -1328,40 +1320,17 @@
       "RRP": "A$54.49",
       "rrp": "A$35.49",
       "Save:": "A$19.00"
-    }
+    },
+    "title": "Lezyne Micro Caddy QR Medium",
+    "id": "11631030",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631030",
+    "brand": "Lezyne",
+    "price": "A$35.49",
+    "position": "28"
   },
   {
-    "data-product-title": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
-    "data-product-id": "10783955",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783955",
-    "data-product-brand": "Scicon",
-    "data-product-price": "A$26.49",
-    "data-product-position": "29",
-    "name": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
-    "url": "https://www.probikekit.com.au/cycling-accessories/scicon-mainstream-elan-210-rl-2.1-saddle-bag/10783955.html",
-    "images": [
-      {
-        "description": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
-        "src": "https://s1.thcdn.com/productimg/0/300/300/55/10783955-1363251229-147628.jpg"
-      }
-    ],
-    "prices": {
-      "RRP": "A$47.49",
-      "rrp": "A$26.49",
-      "Save:": "A$21.00"
-    }
-  },
-  {
-    "data-product-title": "Lezyne M Caddy Sport Kit",
-    "data-product-id": "11631028",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11631028",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$56.99",
-    "data-product-position": "30",
     "name": "Lezyne M Caddy Sport Kit",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-m-caddy-sport-kit/11631028.html",
     "images": [
@@ -1374,17 +1343,40 @@
       "RRP": "A$96.99",
       "rrp": "A$56.99",
       "Save:": "A$40.00"
-    }
+    },
+    "title": "Lezyne M Caddy Sport Kit",
+    "id": "11631028",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11631028",
+    "brand": "Lezyne",
+    "price": "A$56.99",
+    "position": "29"
   },
   {
-    "data-product-title": "Topeak Dyna-Wedge Saddlebag with Strap - Small",
-    "data-product-id": "10932020",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10932020",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$37.99",
-    "data-product-position": "1",
+    "name": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
+    "url": "https://www.probikekit.com.au/cycling-accessories/scicon-mainstream-elan-210-rl-2.1-saddle-bag/10783955.html",
+    "images": [
+      {
+        "description": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
+        "src": "https://s1.thcdn.com/productimg/0/300/300/55/10783955-1363251229-147628.jpg"
+      }
+    ],
+    "prices": {
+      "RRP": "A$47.49",
+      "rrp": "A$26.49",
+      "Save:": "A$21.00"
+    },
+    "title": "Scicon Mainstream Elan 210 RL 2.1 Saddle Bag",
+    "id": "10783955",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783955",
+    "brand": "Scicon",
+    "price": "A$26.49",
+    "position": "30"
+  },
+  {
     "name": "Topeak Dyna-Wedge Saddlebag with Strap - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-dyna-wedge-saddlebag-with-strap-small/10932020.html",
     "images": [
@@ -1397,17 +1389,17 @@
       "RRP": "A$54.49",
       "rrp": "A$37.99",
       "Save:": "A$16.50"
-    }
+    },
+    "title": "Topeak Dyna-Wedge Saddlebag with Strap - Small",
+    "id": "10932020",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10932020",
+    "brand": "Topeak",
+    "price": "A$37.99",
+    "position": "1"
   },
   {
-    "data-product-title": "Silca Borsa Minimo Essentials Case",
-    "data-product-id": "11960084",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11960084",
-    "data-product-brand": "Silca",
-    "data-product-price": "A$65.99",
-    "data-product-position": "2",
     "name": "Silca Borsa Minimo Essentials Case",
     "url": "https://www.probikekit.com.au/cycling-accessories/silca-borsa-minimo-essentials-case/11960084.html",
     "images": [
@@ -1420,17 +1412,17 @@
       "RRP": "A$77.99",
       "rrp": "A$65.99",
       "Save:": "A$12.00"
-    }
+    },
+    "title": "Silca Borsa Minimo Essentials Case",
+    "id": "11960084",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11960084",
+    "brand": "Silca",
+    "price": "A$65.99",
+    "position": "2"
   },
   {
-    "data-product-title": "Deuter Big Bag 2 Saddlebag - Black",
-    "data-product-id": "11834133",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11834133",
-    "data-product-brand": "Deuter",
-    "data-product-price": "A$27.99",
-    "data-product-position": "3",
     "name": "Deuter Big Bag 2 Saddlebag - Black",
     "url": "https://www.probikekit.com.au/cycling-accessories/deuter-big-bag-2-saddlebag-black/11834133.html",
     "images": [
@@ -1443,17 +1435,17 @@
       "RRP": "A$32.49",
       "rrp": "A$27.99",
       "Save:": "A$4.50"
-    }
+    },
+    "title": "Deuter Big Bag 2 Saddlebag - Black",
+    "id": "11834133",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11834133",
+    "brand": "Deuter",
+    "price": "A$27.99",
+    "position": "3"
   },
   {
-    "data-product-title": "Topeak TriBag",
-    "data-product-id": "10773070",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10773070",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$13.49",
-    "data-product-position": "4",
     "name": "Topeak TriBag",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-tribag/10773070.html",
     "images": [
@@ -1466,17 +1458,17 @@
       "RRP": "A$19.49",
       "rrp": "A$13.49",
       "Save:": "A$6.00"
-    }
+    },
+    "title": "Topeak TriBag",
+    "id": "10773070",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10773070",
+    "brand": "Topeak",
+    "price": "A$13.49",
+    "position": "4"
   },
   {
-    "data-product-title": "Profile Design Energy Pack - Frame Mount - Large",
-    "data-product-id": "11674680",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11674680",
-    "data-product-brand": "Profile Design",
-    "data-product-price": "A$23.49",
-    "data-product-position": "5",
     "name": "Profile Design Energy Pack - Frame Mount - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories/profile-design-energy-pack-frame-mount-large/11674680.html",
     "images": [
@@ -1489,17 +1481,17 @@
       "RRP": "A$29.49",
       "rrp": "A$23.49",
       "Save:": "A$6.00"
-    }
+    },
+    "title": "Profile Design Energy Pack - Frame Mount - Large",
+    "id": "11674680",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11674680",
+    "brand": "Profile Design",
+    "price": "A$23.49",
+    "position": "5"
   },
   {
-    "data-product-title": "Lezyne Micro Caddy Saddle Bag - Medium",
-    "data-product-id": "10773025",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10773025",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$32.99",
-    "data-product-position": "6",
     "name": "Lezyne Micro Caddy Saddle Bag - Medium",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/lezyne-micro-caddy-saddle-bag-medium/10773025.html",
     "images": [
@@ -1512,17 +1504,17 @@
       "RRP": "A$48.49",
       "rrp": "A$32.99",
       "Save:": "A$15.50"
-    }
+    },
+    "title": "Lezyne Micro Caddy Saddle Bag - Medium",
+    "id": "10773025",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10773025",
+    "brand": "Lezyne",
+    "price": "A$32.99",
+    "position": "6"
   },
   {
-    "data-product-title": "Lezyne Energy Caddy - Large",
-    "data-product-id": "11046788",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11046788",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$24.99",
-    "data-product-position": "7",
     "name": "Lezyne Energy Caddy - Large",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/lezyne-energy-caddy-large/11046788.html",
     "images": [
@@ -1535,17 +1527,17 @@
       "RRP": "A$42.99",
       "rrp": "A$24.99",
       "Save:": "A$18.00"
-    }
+    },
+    "title": "Lezyne Energy Caddy - Large",
+    "id": "11046788",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11046788",
+    "brand": "Lezyne",
+    "price": "A$24.99",
+    "position": "7"
   },
   {
-    "data-product-title": "Topeak Wedge Aero DX QR Saddlebag - Small",
-    "data-product-id": "11075939",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11075939",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$23.99",
-    "data-product-position": "8",
     "name": "Topeak Wedge Aero DX QR Saddlebag - Small",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/topeak-wedge-aero-dx-qr-saddlebag-small/11075939.html",
     "images": [
@@ -1558,17 +1550,17 @@
       "RRP": "A$34.99",
       "rrp": "A$23.99",
       "Save:": "A$11.00"
-    }
+    },
+    "title": "Topeak Wedge Aero DX QR Saddlebag - Small",
+    "id": "11075939",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11075939",
+    "brand": "Topeak",
+    "price": "A$23.99",
+    "position": "8"
   },
   {
-    "data-product-title": "Lizard Skins Micro Cache Saddle Bag",
-    "data-product-id": "11406550",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11406550",
-    "data-product-brand": "Lizard Skins",
-    "data-product-price": "A$24.99",
-    "data-product-position": "9",
     "name": "Lizard Skins Micro Cache Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/lizard-skins-micro-cache-saddle-bag/11406550.html",
     "images": [
@@ -1581,17 +1573,17 @@
       "RRP": "A$38.99",
       "rrp": "A$24.99",
       "Save:": "A$14.00"
-    }
+    },
+    "title": "Lizard Skins Micro Cache Saddle Bag",
+    "id": "11406550",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11406550",
+    "brand": "Lizard Skins",
+    "price": "A$24.99",
+    "position": "9"
   },
   {
-    "data-product-title": "Evoc Saddle Bag Race",
-    "data-product-id": "11479575",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11479575",
-    "data-product-brand": "Evoc",
-    "data-product-price": "A$18.49",
-    "data-product-position": "10",
     "name": "Evoc Saddle Bag Race",
     "url": "https://www.probikekit.com.au/cycling-accessories/evoc-saddle-bag-race/11479575.html",
     "images": [
@@ -1604,17 +1596,17 @@
       "RRP": "A$25.49",
       "rrp": "A$18.49",
       "Save:": "A$7.00"
-    }
+    },
+    "title": "Evoc Saddle Bag Race",
+    "id": "11479575",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11479575",
+    "brand": "Evoc",
+    "price": "A$18.49",
+    "position": "10"
   },
   {
-    "data-product-title": "Birzman Elements Saddle Bag",
-    "data-product-id": "11767165",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11767165",
-    "data-product-brand": "Birzman",
-    "data-product-price": "A$32.49",
-    "data-product-position": "11",
     "name": "Birzman Elements Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/birzman-elements-saddle-bag/11767165.html",
     "images": [
@@ -1627,17 +1619,17 @@
       "RRP": "A$48.49",
       "rrp": "A$32.49",
       "Save:": "A$16.00"
-    }
+    },
+    "title": "Birzman Elements Saddle Bag",
+    "id": "11767165",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11767165",
+    "brand": "Birzman",
+    "price": "A$32.49",
+    "position": "11"
   },
   {
-    "data-product-title": "Lezyne S-Caddy Saddle Bag",
-    "data-product-id": "10783218",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783218",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$20.99",
-    "data-product-position": "12",
     "name": "Lezyne S-Caddy Saddle Bag",
     "url": "https://www.probikekit.com.au/lezyne-s-caddy-saddle-bag/10783218.html",
     "images": [
@@ -1650,17 +1642,17 @@
       "RRP": "A$29.49",
       "rrp": "A$20.99",
       "Save:": "A$8.50"
-    }
+    },
+    "title": "Lezyne S-Caddy Saddle Bag",
+    "id": "10783218",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783218",
+    "brand": "Lezyne",
+    "price": "A$20.99",
+    "position": "12"
   },
   {
-    "data-product-title": "Lezyne L-Caddy Saddle Bag",
-    "data-product-id": "10783210",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783210",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$31.49",
-    "data-product-position": "13",
     "name": "Lezyne L-Caddy Saddle Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/lezyne-l-caddy-saddle-bag/10783210.html",
     "images": [
@@ -1673,17 +1665,17 @@
       "RRP": "A$48.49",
       "rrp": "A$31.49",
       "Save:": "A$17.00"
-    }
+    },
+    "title": "Lezyne L-Caddy Saddle Bag",
+    "id": "10783210",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783210",
+    "brand": "Lezyne",
+    "price": "A$31.49",
+    "position": "13"
   },
   {
-    "data-product-title": "Evoc Saddle Tour Bag",
-    "data-product-id": "11479516",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "11479516",
-    "data-product-brand": "Evoc",
-    "data-product-price": "A$27.49",
-    "data-product-position": "14",
     "name": "Evoc Saddle Tour Bag",
     "url": "https://www.probikekit.com.au/cycling-accessories/evoc-saddle-tour-bag/11479516.html",
     "images": [
@@ -1696,17 +1688,17 @@
       "RRP": "A$41.99",
       "rrp": "A$27.49",
       "Save:": "A$14.50"
-    }
+    },
+    "title": "Evoc Saddle Tour Bag",
+    "id": "11479516",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "11479516",
+    "brand": "Evoc",
+    "price": "A$27.49",
+    "position": "14"
   },
   {
-    "data-product-title": "Lezyne M-Caddy Saddle Bag",
-    "data-product-id": "10783214",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "true",
-    "data-product-master-product-id": "10783214",
-    "data-product-brand": "Lezyne",
-    "data-product-price": "A$23.49",
-    "data-product-position": "15",
     "name": "Lezyne M-Caddy Saddle Bag",
     "url": "https://www.probikekit.com.au/lezyne-m-caddy-saddle-bag/10783214.html",
     "images": [
@@ -1719,6 +1711,14 @@
       "RRP": "A$38.99",
       "rrp": "A$23.49",
       "Save:": "A$15.50"
-    }
+    },
+    "title": "Lezyne M-Caddy Saddle Bag",
+    "id": "10783214",
+    "category": "",
+    "is-master-product-id": "true",
+    "master-product-id": "10783214",
+    "brand": "Lezyne",
+    "price": "A$23.49",
+    "position": "15"
   }
 ]

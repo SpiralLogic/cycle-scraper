@@ -1,13 +1,5 @@
 [
   {
-    "data-product-title": "Topeak Flash Stand - Standard",
-    "data-product-id": "10772089",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772089",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$37.99",
-    "data-product-position": "1",
     "name": "Topeak Flash Stand - Standard",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/topeak-flash-stand-standard/10772089.html",
     "images": [
@@ -20,17 +12,17 @@
       "RRP": "A$56.49",
       "rrp": "A$37.99",
       "Save:": "A$18.50"
-    }
+    },
+    "title": "Topeak Flash Stand - Standard",
+    "id": "10772089",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772089",
+    "brand": "Topeak",
+    "price": "A$37.99",
+    "position": "1"
   },
   {
-    "data-product-title": "Saris Kool Rack Add-On",
-    "data-product-id": "11798422",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11798422",
-    "data-product-brand": "Saris",
-    "data-product-price": "A$57.99",
-    "data-product-position": "2",
     "name": "Saris Kool Rack Add-On",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/saris-kool-rack-add-on/11798422.html",
     "images": [
@@ -43,17 +35,17 @@
       "RRP": "A$67.99",
       "rrp": "A$57.99",
       "Save:": "A$10.00"
-    }
+    },
+    "title": "Saris Kool Rack Add-On",
+    "id": "11798422",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11798422",
+    "brand": "Saris",
+    "price": "A$57.99",
+    "position": "2"
   },
   {
-    "data-product-title": "Topeak Flash Stand - Slim",
-    "data-product-id": "10772088",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "10772088",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$37.99",
-    "data-product-position": "3",
     "name": "Topeak Flash Stand - Slim",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance-nc/topeak-flash-stand-slim/10772088.html",
     "images": [
@@ -66,17 +58,17 @@
       "RRP": "A$56.49",
       "rrp": "A$37.99",
       "Save:": "A$18.50"
-    }
+    },
+    "title": "Topeak Flash Stand - Slim",
+    "id": "10772088",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "10772088",
+    "brand": "Topeak",
+    "price": "A$37.99",
+    "position": "3"
   },
   {
-    "data-product-title": "Saris Kool Rack",
-    "data-product-id": "11798421",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11798421",
-    "data-product-brand": "Saris",
-    "data-product-price": "A$445.49",
-    "data-product-position": "4",
     "name": "Saris Kool Rack",
     "url": "https://www.probikekit.com.au/cycling-accessories-nc/saris-kool-rack/11798421.html",
     "images": [
@@ -89,17 +81,17 @@
       "RRP": "A$523.99",
       "rrp": "A$445.49",
       "Save:": "A$78.50"
-    }
+    },
+    "title": "Saris Kool Rack",
+    "id": "11798421",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11798421",
+    "brand": "Saris",
+    "price": "A$445.49",
+    "position": "4"
   },
   {
-    "data-product-title": "Evoc Bike Cover 360L/240L - Black",
-    "data-product-id": "11479633",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11479633",
-    "data-product-brand": "Evoc",
-    "data-product-price": "A$189.49",
-    "data-product-position": "5",
     "name": "Evoc Bike Cover 360L/240L - Black",
     "url": "https://www.probikekit.com.au/cycling-accessories/evoc-bike-cover-360l/240l-black/11479633.html",
     "images": [
@@ -112,17 +104,17 @@
       "RRP": "A$223.49",
       "rrp": "A$189.49",
       "Save:": "A$34.00"
-    }
+    },
+    "title": "Evoc Bike Cover 360L/240L - Black",
+    "id": "11479633",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11479633",
+    "brand": "Evoc",
+    "price": "A$189.49",
+    "position": "5"
   },
   {
-    "data-product-title": "Topeak Two Up Bike Stand",
-    "data-product-id": "11365956",
-    "data-product-category": "",
-    "data-product-is-master-product-id": "false",
-    "data-product-master-product-id": "11365956",
-    "data-product-brand": "Topeak",
-    "data-product-price": "A$290.99",
-    "data-product-position": "6",
     "name": "Topeak Two Up Bike Stand",
     "url": "https://www.probikekit.com.au/bicycle-tools-and-maintenance/topeak-two-up-bike-stand/11365956.html",
     "images": [
@@ -135,6 +127,14 @@
       "RRP": "A$329.99",
       "rrp": "A$290.99",
       "Save:": "A$39.00"
-    }
+    },
+    "title": "Topeak Two Up Bike Stand",
+    "id": "11365956",
+    "category": "",
+    "is-master-product-id": "false",
+    "master-product-id": "11365956",
+    "brand": "Topeak",
+    "price": "A$290.99",
+    "position": "6"
   }
 ]
