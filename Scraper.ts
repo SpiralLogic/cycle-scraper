@@ -35,6 +35,8 @@ export class Scraper {
 
                 completedPage = this.site.currentPageUrl;
             }
+
+            await writePromise;
         } catch (e) {
             console.log(e);
         }
