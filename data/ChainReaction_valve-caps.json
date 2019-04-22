@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LifeLine Presta Removable Valve Core - Pack of 4",
+    "url": "https://www.chainreactioncycles.com/au/en/lifeline-presta-removable-valve-core-pack-of-4/rp-prod161980",
+    "images": [
+      {
+        "description": "LifeLine Presta Removable Valve Core - Pack of 4",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod161980_Silver_NE_01&$offerhide=1&$promoflag=ten-off-ten-brands-2019-wk14&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$7.69",
+      "salePrice": "A$3.99",
+      "savedAmount": "SAVE 48%"
+    },
+    "category": "valve-caps"
+  },
+  {
+    "name": "LifeLine Alloy Valve Caps",
+    "url": "https://www.chainreactioncycles.com/au/en/lifeline-alloy-valve-caps/rp-prod155547",
+    "images": [
+      {
+        "description": "LifeLine Alloy Valve Caps",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod155547_Red_NE_01&$offerhide=1&$promoflag=ten-off-ten-brands-2019-wk14&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$5.49",
+      "salePrice": "A$2.99",
+      "savedAmount": "SAVE 46%"
+    },
+    "category": "valve-caps"
+  },
+  {
+    "name": "Token TK3292 Valve Caps",
+    "url": "https://www.chainreactioncycles.com/au/en/token-tk3292-valve-caps/rp-prod57971",
+    "images": [
+      {
+        "description": "Token TK3292 Valve Caps",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod57971_Red_NE_01&$offerflag=Best_Seller&$offerhide=0&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$4.43",
+      "salePrice": "A$4.03 - A$4.43",
+      "savedAmount": "SAVE UP TO 9%"
+    },
+    "category": "valve-caps"
+  }
+]

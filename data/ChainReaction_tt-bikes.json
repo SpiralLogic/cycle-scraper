@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Ridley Dean 105 TT Bike 2019",
+    "url": "https://www.chainreactioncycles.com/au/en/ridley-dean-105-tt-bike-2019/rp-prod185867",
+    "images": [
+      {
+        "description": "Ridley Dean 105 TT Bike 2019",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod185867_Black%20-%20Red_NE_01&$offerhide=1&$promoflag=PayPalCredit&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "",
+      "salePrice": "A$3999.00",
+      "savedAmount": ""
+    },
+    "category": "tt-bikes"
+  },
+  {
+    "name": "Cube Aerium Race TT Bike 2019",
+    "url": "https://www.chainreactioncycles.com/au/en/cube-aerium-race-tt-bike-2019/rp-prod181809",
+    "images": [
+      {
+        "description": "Cube Aerium Race TT Bike 2019",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod181809_Carbon%20-%20Blue_NE_01&$offerhide=1&$promoflag=PayPalCredit&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "",
+      "salePrice": "A$5099.00",
+      "savedAmount": ""
+    },
+    "category": "tt-bikes"
+  },
+  {
+    "name": "Vitus Auro CR Triathlon Bike (105) 2019",
+    "url": "https://www.chainreactioncycles.com/au/en/vitus-auro-cr-triathlon-bike-105-2019/rp-prod173145",
+    "images": [
+      {
+        "description": "Vitus Auro CR Triathlon Bike 105 2019",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod173145_Black-Grey_NE_01&$offerhide=1&$promoflag=PayPalCredit&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "",
+      "salePrice": "A$4449.99",
+      "savedAmount": ""
+    },
+    "category": "tt-bikes"
+  },
+  {
+    "name": "Kestrel Talon X 105 TR Tri Bike 2019",
+    "url": "https://www.chainreactioncycles.com/au/en/kestrel-talon-x-105-tr-tri-bike-2019/rp-prod181906",
+    "images": [
+      {
+        "description": "Kestrel Talon X 105 TR Tri Bike 2019",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod181906_Black_NE_01&$offerhide=1&$promoflag=PayPalCredit&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$2799.00",
+      "salePrice": "A$1574.98",
+      "savedAmount": "SAVE 44%"
+    },
+    "category": "tt-bikes"
+  },
+  {
+    "name": "Ridley Dean Ultegra TT Bike 2019",
+    "url": "https://www.chainreactioncycles.com/au/en/ridley-dean-ultegra-tt-bike-2019/rp-prod185811",
+    "images": [
+      {
+        "description": "Ridley Dean Ultegra TT Bike 2019",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod185811_Black%20-%20Red_NE_01&$offerhide=1&$promoflag=PayPalCredit&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "",
+      "salePrice": "A$5199.00",
+      "savedAmount": ""
+    },
+    "category": "tt-bikes"
+  }
+]

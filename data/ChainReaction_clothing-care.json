@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nikwax Nikwax TX Direct - 100ml",
+    "url": "https://www.chainreactioncycles.com/au/en/nikwax-nikwax-tx-direct-100ml/rp-prod128698",
+    "images": [
+      {
+        "description": "Nikwax Nikwax TX Direct - 100ml",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod128698_NC_NE_01&$offerflag=Best_Seller&$offerhide=0&$promoflag=MidSeasonOct2014&$promohide=0&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$7.46",
+      "salePrice": "A$7.45",
+      "savedAmount": ""
+    },
+    "category": "clothing-care"
+  },
+  {
+    "name": "Nikwax Nikwax TX Direct - 300ml",
+    "url": "https://www.chainreactioncycles.com/au/en/nikwax-nikwax-tx-direct-300ml/rp-prod128699",
+    "images": [
+      {
+        "description": "Nikwax Nikwax TX Direct - 300ml",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod128699_NC_NE_01&$offerhide=1&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "",
+      "salePrice": "A$15.42",
+      "savedAmount": ""
+    },
+    "category": "clothing-care"
+  },
+  {
+    "name": "Grangers Performance Repel Spray",
+    "url": "https://www.chainreactioncycles.com/au/en/grangers-performance-repel-spray/rp-prod139182",
+    "images": [
+      {
+        "description": "Grangers Performance Repel Spray",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod139182_NC_NE_01&$offerhide=1&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$14.94",
+      "salePrice": "A$11.88",
+      "savedAmount": "SAVE 20%"
+    },
+    "category": "clothing-care"
+  },
+  {
+    "name": "Grangers Merino Wash",
+    "url": "https://www.chainreactioncycles.com/au/en/grangers-merino-wash/rp-prod139176",
+    "images": [
+      {
+        "description": "Grangers Merino Wash",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod139176_NC_NE_01&$offerhide=1&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$9.33",
+      "salePrice": "A$8.99",
+      "savedAmount": "SAVE 4%"
+    },
+    "category": "clothing-care"
+  },
+  {
+    "name": "Grangers Xtreme Repel",
+    "url": "https://www.chainreactioncycles.com/au/en/grangers-xtreme-repel/rp-prod139183",
+    "images": [
+      {
+        "description": "Grangers Xtreme Repel",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod139183_NC_NE_01&$offerhide=1&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$14.94",
+      "salePrice": "A$11.88",
+      "savedAmount": "SAVE 20%"
+    },
+    "category": "clothing-care"
+  },
+  {
+    "name": "Nikwax Tech Wash - 300ml",
+    "url": "https://www.chainreactioncycles.com/au/en/nikwax-tech-wash-300ml/rp-prod130083",
+    "images": [
+      {
+        "description": "Nikwax Tech Wash - 300ml",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod130083_NC_NE_01&$offerhide=1&$promohide=1&locale=en"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$9.33",
+      "salePrice": "A$9.32",
+      "savedAmount": ""
+    },
+    "category": "clothing-care"
+  }
+]

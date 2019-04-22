@@ -10,5 +10,4 @@ node_modules/
 out
 gen
 *.map
-/node_modules/
-/dist/
+dist/

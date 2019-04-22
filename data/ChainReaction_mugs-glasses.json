@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Park Tool Pizza Tool PZT-2",
+    "url": "https://www.chainreactioncycles.com/au/en/park-tool-pizza-tool-pzt-2/rp-prod27025",
+    "images": [
+      {
+        "description": "Park Tool Pizza Tool PZT-2",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod27025_Blue_NE_01&$offerflag=Best_Seller&$offerhide=0&$promoflag=christmasstore2018&$promohide=0&locale=en"
+      },
+      {
+        "description": "Park Tool Pizza Tool PZT-2",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/prod27025_Blue_SW?$swatch$&defaultImage=prod27025_Blue_NE_01"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$30.25",
+      "salePrice": "A$28.99",
+      "savedAmount": "SAVE 4%"
+    },
+    "site": "ChainReaction",
+    "category": "mugs-glasses"
+  },
+  {
+    "name": "Park Tool Bottle Opener BO-2",
+    "url": "https://www.chainreactioncycles.com/au/en/park-tool-bottle-opener-bo-2/rp-prod27223",
+    "images": [
+      {
+        "description": "Park Tool Bottle Opener BO-2",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod27223_Blue-Silver_NE_01&$offerhide=1&$promoflag=christmasstore2018&$promohide=0&locale=en"
+      },
+      {
+        "description": "Park Tool Bottle Opener BO-2",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/prod27223_Blue-Silver_SW?$swatch$&defaultImage=prod27223_Blue-Silver_NE_01"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$18.68",
+      "salePrice": "A$17.00",
+      "savedAmount": "SAVE 9%"
+    },
+    "site": "ChainReaction",
+    "category": "mugs-glasses"
+  },
+  {
+    "name": "Park Tool Coffee Mug MUG-1",
+    "url": "https://www.chainreactioncycles.com/au/en/park-tool-coffee-mug-mug-1/rp-prod10665",
+    "images": [
+      {
+        "description": "Park Tool Coffee Mug MUG-1",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/template_sample?$detail$&$id=prod10665_Black%20-%20Blue_NE_01&$offerhide=1&$promoflag=christmasshop2016&$promohide=0&locale=en"
+      },
+      {
+        "description": "Park Tool Coffee Mug MUG-1",
+        "src": "https://media.chainreactioncycles.com/is/image/ChainReactionCycles/prod10665_Black%20-%20Blue_SW?$swatch$&defaultImage=prod10665_Black%20-%20Blue_NE_01"
+      }
+    ],
+    "prices": {
+      "rrp": "RRP A$23.09",
+      "salePrice": "A$17.99",
+      "savedAmount": "SAVE 22%"
+    },
+    "site": "ChainReaction",
+    "category": "mugs-glasses"
+  }
+]
