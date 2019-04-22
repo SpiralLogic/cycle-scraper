@@ -5,6 +5,7 @@ import {BikeBug} from "./stores/BikeBug";
 import {ChainReaction} from "./stores/chainreaction";
 import {Scraper} from "./Scraper";
 import {Page} from "./Page";
+import {FileWriter} from "./FileWriter";
 
 (async () => {
     const emulators: BrowserEmulator[] = [];
@@ -12,13 +13,13 @@ import {Page} from "./Page";
     const pageMaker = async (): Promise<Page> => {
         emulators.unshift(await BrowserEmulator.New());
         return await emulators[0].newPage();
-    }
+    };
 
     const sites = [
-        new Scraper(new ProBikeKit(await pageMaker())),
-        new Scraper(new BikeBug(await pageMaker())),
-        new Scraper(new Bikes99(await pageMaker())),
-        new Scraper(new ChainReaction(await pageMaker())),
+        new Scraper(new ProBikeKit(await pageMaker()), new FileWriter(console.log)),
+        new Scraper(new BikeBug(await pageMaker()), new FileWriter(console.log)),
+        new Scraper(new Bikes99(await pageMaker()), new FileWriter(console.log)),
+        new Scraper(new ChainReaction(await pageMaker()), new FileWriter(console.log)),
     ];
 
     await Promise.all(sites.map(async s => (await s.getProductsForSite())));

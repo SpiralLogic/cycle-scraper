@@ -1,16 +1,19 @@
 import {Site} from "./Site";
 import {ProductPage, Products} from "./ProductInterfaces";
-import * as fs from "fs";
+import {Writer} from "./FileWriter";
 
 export class Scraper {
     private readonly site: Site;
+    private readonly writer: Writer;
 
-    constructor(site: Site) {
+    constructor(site: Site, writer: Writer) {
         this.site = site;
+        this.writer = writer;
     }
 
     public getProductsForSite = async () => {
         const allProducts: Products = [];
+        let writePromise: Promise<void> = Promise.resolve();
         let completedPage: ProductPage = {};
 
         try {
@@ -27,7 +30,8 @@ export class Scraper {
                 const products = await this.site.getProducts();
                 allProducts.push(...products);
 
-                await writeProductsToJson(this.site.name + "_" + this.site.currentPageUrl.name, "products", allProducts);
+                const name = `data/${this.site.name}_${this.site.currentPageUrl.name}.json`;
+                writePromise = writePromise.then(() => this.writer.write(name, JSON.stringify(allProducts)));
 
                 completedPage = this.site.currentPageUrl;
             }
@@ -37,11 +41,3 @@ export class Scraper {
     };
 }
 
-const writeProductsToJson = async (prefix: string, filename: string, products: Products) => {
-    const file = prefix + "_" + filename + ".json";
-
-    return await fs.writeFile("data/" + file, JSON.stringify(products), (err) => {
-        if (err) throw err;
-        console.log("wrote file: " + file);
-    });
-};
