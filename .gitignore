@@ -1,6 +1,5 @@
 
 .idea/
-*.map
 node_modules/
 ### Example user template template
 ### Example user template
@@ -12,3 +11,4 @@ out
 gen
 *.map
 /node_modules/
+/dist/
