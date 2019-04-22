@@ -1,6 +1,7 @@
 import {Site} from "./Site";
 import {ProductPage, Products} from "./ProductInterfaces";
-import {Writer} from "./FileWriter";
+import {Writer} from "./ScraperInterfaces";
+import {MetadataValue} from "aws-sdk/clients/s3";
 
 export class Scraper {
     private readonly site: Site;
@@ -30,8 +31,13 @@ export class Scraper {
                 const products = await this.site.getProducts();
                 allProducts.push(...products);
 
-                const name = `data/${this.site.name}_${this.site.currentPageUrl.name}.json`;
-                writePromise = writePromise.then(() => this.writer.write(name, JSON.stringify(allProducts)));
+                const name = `${this.site.name}_${this.site.currentPageUrl.name}.json`;
+                const metadata: { [key: string]: MetadataValue } = {
+                    "site": this.site.name,
+                    "created": Date.now().toString(),
+                    "category": this.site.currentPageUrl.name || ""
+                };
+                writePromise = writePromise.then(() => this.writer.write(name, JSON.stringify(allProducts), metadata));
 
                 completedPage = this.site.currentPageUrl;
             }

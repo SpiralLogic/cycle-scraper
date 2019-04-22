@@ -1,28 +1,32 @@
 import * as S3 from 'aws-sdk/clients/s3';
-import {PutObjectRequest} from "aws-sdk/clients/s3";
+import {Metadata, PutObjectRequest} from "aws-sdk/clients/s3";
+
+type Body = S3.Body;
+type UploadParams=PutObjectRequest;
 
 export class AwsS3 {
-    private readonly bucketName: string = 'part-scraper';
+    private readonly bucketName: string;
     private s3: S3;
 
-    constructor() {
+    constructor(bucketName: string) {
+        this.bucketName = bucketName;
         this.s3 = new S3({apiVersion: '2006-03-01', region: 'ap-southeast-2'})
     }
 
-    uploadToBucket = async (stream: S3.Body, key: string, bucketName?: string) => {
+    uploadToBucket = async (body: Body, params:UploadParams) => {
         try {
-            const params = this.createFileUploadParams(stream, key, bucketName);
+            params.Body=body;
             await this.s3.putObject(params).promise();
         } catch (err) {
             return console.log("Error", err);
         }
     };
 
-   private createFileUploadParams = (body: S3.Body, key: string, bucketName: string = this.bucketName): PutObjectRequest => {
+     createUploadParams = (key: string, metadata: Metadata):UploadParams => {
         return {
-            Bucket: bucketName,
+            Bucket: this.bucketName,
             Key: key,
-            Body: body
+            Metadata:metadata
         }
     };
 }

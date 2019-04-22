@@ -5,7 +5,7 @@ import {BikeBug} from "./stores/BikeBug";
 import {ChainReaction} from "./stores/chainreaction";
 import {Scraper} from "./Scraper";
 import {Page} from "./Page";
-import { S3Writer} from "./FileWriter";
+import {S3Writer} from "./S3Writer";
 
 (async () => {
     const emulators: BrowserEmulator[] = [];

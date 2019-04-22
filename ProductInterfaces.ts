@@ -4,7 +4,6 @@ export interface Product {
     name: string,
     images: ProductImage[],
     url: string | null,
-
     [x: string]: any,
 }
 
