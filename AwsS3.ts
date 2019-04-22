@@ -1,7 +1,5 @@
 import * as S3 from 'aws-sdk/clients/s3';
-import * as fs from 'fs';
 import {PutObjectRequest} from "aws-sdk/clients/s3";
-import * as path from 'path';
 
 export class AwsS3 {
     private readonly bucketName: string = 'part-scraper';
@@ -11,9 +9,9 @@ export class AwsS3 {
         this.s3 = new S3({apiVersion: '2006-03-01', region: 'ap-southeast-2'})
     }
 
-    uploadToBucket = async (filepath: string, bucketName?: string) => {
+    uploadToBucket = async (stream: Body, key: string, bucketName?: string) => {
         try {
-            const params = this.createFileUploadParams(filepath, bucketName);
+            const params = this.createFileUploadParams(stream, key, bucketName);
             await this.s3.putObject(params).promise();
             console.log("Upload Success");
         } catch (err) {
@@ -21,11 +19,11 @@ export class AwsS3 {
         }
     };
 
-    createFileUploadParams = (filepath: string, bucketName: string = this.bucketName): PutObjectRequest => {
+    createFileUploadParams = (body: Body, key: string, bucketName: string = this.bucketName): PutObjectRequest => {
         return {
             Bucket: bucketName,
-            Key: path.basename(filepath),
-            Body: fs.createReadStream(filepath)
+            Key: key,
+            Body: body
         }
     };
 }
