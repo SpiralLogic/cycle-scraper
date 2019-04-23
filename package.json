@@ -2,20 +2,30 @@
   "name": "pricescraper",
   "version": "1.0.0",
   "description": "",
-  "main": "scraper.js",
   "scripts": {
-    "tsc": "tsc -p tsconfig.json"
+    "tsc": "rm -rf ./dist && tsc -p tsconfig.json",
+    "crhome": "node ./dist/chrome-script.js",
+    "start": "node ./dist/localrun.js",
+    "deploy": "npm run tsc && serverless package && serverless deploy",
+    "remove": "serverless remove",
+    "local test": "npm run tsc && serverless invoke local -f scrape"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@serverless-chrome/lambda": "^1.0.0-55",
+    "aws-sdk": "^2.441.0",
+    "chrome-launcher": "^0.10.5",
     "puppeteer": "^1.14.0",
-    "puppeteer-core": "^1.14.0",
-    "typescript": "^3.4.3"
+    "serverless-offline": "^3.33.0",
+    "serverless-plugin-chrome": "^1.0.0-55",
+    "superagent": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^11.13.5",
-    "@types/puppeteer": "^1.12.3"
+    "@serverless-chrome/lambda": "^1.0.0-55",
+    "@types/node": "^11.13.6",
+    "@types/puppeteer": "^1.12.3",
+    "typescript": "^3.4.3"
   }
 }

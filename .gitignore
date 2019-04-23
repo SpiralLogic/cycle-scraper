@@ -1,0 +1,15 @@
+
+.idea/
+node_modules/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*.iml
+out
+gen
+*.map
+dist/
+/dist/
+/.serverless/*
+/gooddata/*

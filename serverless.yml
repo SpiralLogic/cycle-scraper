@@ -1,0 +1,27 @@
+service: scraper
+provider:
+  name: aws
+  region: ap-southeast-2
+#  profile: spiral
+  runtime: nodejs8.10
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:PutObject"
+      Resource: "arn:aws:s3:::part-scraper/*"
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-chrome
+
+package:
+  exclude:
+    - node_modules/puppeteer/.local-chromium/**
+    - lib/**
+    - tsconfig.json
+    - tslint.json
+functions:
+  scrape:
+    handler: handler.scrape
+    memorySize: 1536MB
+    timeout: 300
